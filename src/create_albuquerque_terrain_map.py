@@ -94,8 +94,17 @@ for _, row in gdf.iterrows():
     ).add_to(cluster)
 
 # Add an overall bounding rectangle for quick visual orientation.
-bounds = [[gdf.geometry.y.min(), gdf.geometry.x.min()], [gdf.geometry.y.max(), gdf.geometry.x.max()]]
-folium.Rectangle(bounds=bounds, color="#333333", weight=1, fill=False, tooltip="Incident coordinate extent").add_to(m)
+bounds = [
+    [gdf.geometry.y.min(), gdf.geometry.x.min()],
+    [gdf.geometry.y.max(), gdf.geometry.x.max()],
+]
+folium.Rectangle(
+    bounds=bounds,
+    color="#333333",
+    weight=1,
+    fill=False,
+    tooltip="Incident coordinate extent",
+).add_to(m)
 
 Fullscreen().add_to(m)
 MeasureControl(position="topleft", primary_length_unit="miles").add_to(m)
@@ -110,7 +119,11 @@ m.save(html_path)
 fig, ax = plt.subplots(figsize=(11, 9))
 
 # Plot APD vs non-APD points. No basemap is added here so this works offline.
-gdf.assign(apd_label=gdf["apd_involved"].map({True: "APD involved", False: "Other / multi-agency"})).plot(
+gdf.assign(
+    apd_label=gdf["apd_involved"].map(
+        {True: "APD involved", False: "Other / multi-agency"}
+    )
+).plot(
     ax=ax,
     column="apd_label",
     categorical=True,
