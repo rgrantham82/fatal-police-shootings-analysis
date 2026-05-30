@@ -1,0 +1,584 @@
+year,state_abbr,state_fips,state_name,population,population_source_vintage,population_source_url
+2015,AL,01,Alabama,4852347,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,AL,01,Alabama,4863525,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,AL,01,Alabama,4874486,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,AL,01,Alabama,4887681,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,AL,01,Alabama,4903185,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,AK,02,Alaska,737498,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,AK,02,Alaska,741456,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,AK,02,Alaska,739700,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,AK,02,Alaska,735139,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,AK,02,Alaska,731545,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,AZ,04,Arizona,6829676,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,AZ,04,Arizona,6941072,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,AZ,04,Arizona,7044008,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,AZ,04,Arizona,7158024,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,AZ,04,Arizona,7278717,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,AR,05,Arkansas,2978048,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,AR,05,Arkansas,2989918,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,AR,05,Arkansas,3001345,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,AR,05,Arkansas,3009733,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,AR,05,Arkansas,3017804,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,CA,06,California,38918045,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,CA,06,California,39167117,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,CA,06,California,39358497,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,CA,06,California,39461588,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,CA,06,California,39512223,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,CO,08,Colorado,5450623,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,CO,08,Colorado,5539215,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,CO,08,Colorado,5611885,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,CO,08,Colorado,5691287,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,CO,08,Colorado,5758736,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,CT,09,Connecticut,3587122,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,CT,09,Connecticut,3578141,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,CT,09,Connecticut,3573297,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,CT,09,Connecticut,3571520,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,CT,09,Connecticut,3565287,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,DE,10,Delaware,941252,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,DE,10,Delaware,948921,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,DE,10,Delaware,956823,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,DE,10,Delaware,965479,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,DE,10,Delaware,973764,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,DC,11,District of Columbia,675400,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,DC,11,District of Columbia,685815,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,DC,11,District of Columbia,694906,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,DC,11,District of Columbia,701547,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,DC,11,District of Columbia,705749,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,FL,12,Florida,20209042,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,FL,12,Florida,20613477,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,FL,12,Florida,20963613,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,FL,12,Florida,21244317,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,FL,12,Florida,21477737,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,GA,13,Georgia,10178447,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,GA,13,Georgia,10301890,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,GA,13,Georgia,10410330,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,GA,13,Georgia,10511131,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,GA,13,Georgia,10617423,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,HI,15,Hawaii,1422052,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,HI,15,Hawaii,1427559,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,HI,15,Hawaii,1424393,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,HI,15,Hawaii,1420593,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,HI,15,Hawaii,1415872,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,ID,16,Idaho,1651059,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,ID,16,Idaho,1682380,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,ID,16,Idaho,1717715,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,ID,16,Idaho,1750536,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,ID,16,Idaho,1787065,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,IL,17,Illinois,12858913,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,IL,17,Illinois,12820527,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,IL,17,Illinois,12778828,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,IL,17,Illinois,12723071,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,IL,17,Illinois,12671821,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,IN,18,Indiana,6608422,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,IN,18,Indiana,6634304,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,IN,18,Indiana,6658078,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,IN,18,Indiana,6695497,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,IN,18,Indiana,6732219,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,IA,19,Iowa,3120960,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,IA,19,Iowa,3131371,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,IA,19,Iowa,3141550,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,IA,19,Iowa,3148618,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,IA,19,Iowa,3155070,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,KS,20,Kansas,2909011,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,KS,20,Kansas,2910844,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,KS,20,Kansas,2908718,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,KS,20,Kansas,2911359,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,KS,20,Kansas,2913314,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,KY,21,Kentucky,4425976,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,KY,21,Kentucky,4438182,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,KY,21,Kentucky,4452268,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,KY,21,Kentucky,4461153,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,KY,21,Kentucky,4467673,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,LA,22,Louisiana,4664628,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,LA,22,Louisiana,4678135,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,LA,22,Louisiana,4670560,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,LA,22,Louisiana,4659690,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,LA,22,Louisiana,4648794,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,ME,23,Maine,1328262,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,ME,23,Maine,1331317,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,ME,23,Maine,1334612,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,ME,23,Maine,1339057,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,ME,23,Maine,1344212,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,MD,24,Maryland,5985562,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,MD,24,Maryland,6003323,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,MD,24,Maryland,6023868,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,MD,24,Maryland,6035802,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,MD,24,Maryland,6045680,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,MA,25,Massachusetts,6794228,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,MA,25,Massachusetts,6823608,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,MA,25,Massachusetts,6859789,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,MA,25,Massachusetts,6882635,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,MA,25,Massachusetts,6892503,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,MI,26,Michigan,9931715,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,MI,26,Michigan,9950571,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,MI,26,Michigan,9973114,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,MI,26,Michigan,9984072,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,MI,26,Michigan,9986857,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,MN,27,Minnesota,5482032,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,MN,27,Minnesota,5522744,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,MN,27,Minnesota,5566230,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,MN,27,Minnesota,5606249,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,MN,27,Minnesota,5639632,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,MS,28,Mississippi,2988471,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,MS,28,Mississippi,2987938,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,MS,28,Mississippi,2988510,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,MS,28,Mississippi,2981020,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,MS,28,Mississippi,2976149,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,MO,29,Missouri,6071732,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,MO,29,Missouri,6087135,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,MO,29,Missouri,6106670,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,MO,29,Missouri,6121623,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,MO,29,Missouri,6137428,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,MT,30,Montana,1030475,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,MT,30,Montana,1040859,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,MT,30,Montana,1052482,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,MT,30,Montana,1060665,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,MT,30,Montana,1068778,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,NE,31,Nebraska,1891277,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,NE,31,Nebraska,1905616,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,NE,31,Nebraska,1915947,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,NE,31,Nebraska,1925614,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,NE,31,Nebraska,1934408,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,NV,32,Nevada,2866939,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,NV,32,Nevada,2917563,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,NV,32,Nevada,2969905,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,NV,32,Nevada,3027341,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,NV,32,Nevada,3080156,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,NH,33,New Hampshire,1336350,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,NH,33,New Hampshire,1342307,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,NH,33,New Hampshire,1348787,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,NH,33,New Hampshire,1353465,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,NH,33,New Hampshire,1359711,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,NJ,34,New Jersey,8867949,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,NJ,34,New Jersey,8870827,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,NJ,34,New Jersey,8885525,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,NJ,34,New Jersey,8886025,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,NJ,34,New Jersey,8882190,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,NM,35,New Mexico,2089291,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,NM,35,New Mexico,2091630,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,NM,35,New Mexico,2091784,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,NM,35,New Mexico,2092741,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,NM,35,New Mexico,2096829,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,NY,36,New York,19654666,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,NY,36,New York,19633428,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,NY,36,New York,19589572,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,NY,36,New York,19530351,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,NY,36,New York,19453561,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,NC,37,North Carolina,10031646,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,NC,37,North Carolina,10154788,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,NC,37,North Carolina,10268233,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,NC,37,North Carolina,10381615,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,NC,37,North Carolina,10488084,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,ND,38,North Dakota,754066,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,ND,38,North Dakota,754434,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,ND,38,North Dakota,754942,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,ND,38,North Dakota,758080,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,ND,38,North Dakota,762062,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,OH,39,Ohio,11617527,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,OH,39,Ohio,11634370,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,OH,39,Ohio,11659650,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,OH,39,Ohio,11676341,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,OH,39,Ohio,11689100,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,OK,40,Oklahoma,3909500,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,OK,40,Oklahoma,3926331,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,OK,40,Oklahoma,3931316,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,OK,40,Oklahoma,3940235,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,OK,40,Oklahoma,3956971,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,OR,41,Oregon,4015792,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,OR,41,Oregon,4089976,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,OR,41,Oregon,4143625,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,OR,41,Oregon,4181886,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,OR,41,Oregon,4217737,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,PA,42,Pennsylvania,12784826,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,PA,42,Pennsylvania,12782275,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,PA,42,Pennsylvania,12787641,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,PA,42,Pennsylvania,12800922,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,PA,42,Pennsylvania,12801989,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,RI,44,Rhode Island,1056065,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,RI,44,Rhode Island,1056770,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,RI,44,Rhode Island,1055673,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,RI,44,Rhode Island,1058287,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,RI,44,Rhode Island,1059361,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,SC,45,South Carolina,4891938,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,SC,45,South Carolina,4957968,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,SC,45,South Carolina,5021268,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,SC,45,South Carolina,5084156,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,SC,45,South Carolina,5148714,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,SD,46,South Dakota,853988,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,SD,46,South Dakota,862996,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,SD,46,South Dakota,872868,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,SD,46,South Dakota,878698,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,SD,46,South Dakota,884659,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,TN,47,Tennessee,6591170,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,TN,47,Tennessee,6646010,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,TN,47,Tennessee,6708799,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,TN,47,Tennessee,6771631,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,TN,47,Tennessee,6829174,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,TX,48,Texas,27470056,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,TX,48,Texas,27914410,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,TX,48,Texas,28295273,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,TX,48,Texas,28628666,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,TX,48,Texas,28995881,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,UT,49,Utah,2981835,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,UT,49,Utah,3041868,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,UT,49,Utah,3101042,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,UT,49,Utah,3153550,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,UT,49,Utah,3205958,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,VT,50,Vermont,625216,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,VT,50,Vermont,623657,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,VT,50,Vermont,624344,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,VT,50,Vermont,624358,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,VT,50,Vermont,623989,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,VA,51,Virginia,8361808,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,VA,51,Virginia,8410106,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,VA,51,Virginia,8463587,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,VA,51,Virginia,8501286,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,VA,51,Virginia,8535519,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,WA,53,Washington,7163657,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,WA,53,Washington,7294771,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,WA,53,Washington,7423362,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,WA,53,Washington,7523869,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,WA,53,Washington,7614893,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,WV,54,West Virginia,1842050,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,WV,54,West Virginia,1831023,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,WV,54,West Virginia,1817004,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,WV,54,West Virginia,1804291,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,WV,54,West Virginia,1792147,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,WI,55,Wisconsin,5760940,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,WI,55,Wisconsin,5772628,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,WI,55,Wisconsin,5790186,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,WI,55,Wisconsin,5807406,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,WI,55,Wisconsin,5822434,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,WY,56,Wyoming,585613,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,WY,56,Wyoming,584215,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,WY,56,Wyoming,578931,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,WY,56,Wyoming,577601,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,WY,56,Wyoming,578759,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2015,PR,72,Puerto Rico,3473232,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,PR,72,Puerto Rico,3406672,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,PR,72,Puerto Rico,3325286,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,PR,72,Puerto Rico,3193354,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,PR,72,Puerto Rico,3193694,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2020,AL,01,Alabama,5032962,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,AL,01,Alabama,5050058,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,AL,01,Alabama,5076868,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,AL,01,Alabama,5117850,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,AL,01,Alabama,5163055,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,AL,01,Alabama,5193088,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,AK,02,Alaska,732906,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,AK,02,Alaska,734590,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,AK,02,Alaska,733659,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,AK,02,Alaska,734654,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,AK,02,Alaska,736537,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,AK,02,Alaska,737270,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,AZ,04,Arizona,7186647,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,AZ,04,Arizona,7274022,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,AZ,04,Arizona,7370065,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,AZ,04,Arizona,7452073,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,AZ,04,Arizona,7556424,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,AZ,04,Arizona,7623818,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,AR,05,Arkansas,3014399,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,AR,05,Arkansas,3027127,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,AR,05,Arkansas,3047429,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,AR,05,Arkansas,3069856,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,AR,05,Arkansas,3096080,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,AR,05,Arkansas,3114791,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,CA,06,California,39527808,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,CA,06,California,39152927,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,CA,06,California,39125347,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,CA,06,California,39181667,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,CA,06,California,39364774,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,CA,06,California,39355309,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,CO,08,Colorado,5786873,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,CO,08,Colorado,5814368,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,CO,08,Colorado,5853355,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,CO,08,Colorado,5912240,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,CO,08,Colorado,5988502,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,CO,08,Colorado,6012561,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,CT,09,Connecticut,3579643,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,CT,09,Connecticut,3607765,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,CT,09,Connecticut,3618707,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,CT,09,Connecticut,3641369,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,CT,09,Connecticut,3674449,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,CT,09,Connecticut,3688496,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,DE,10,Delaware,991890,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,DE,10,Delaware,1005130,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,DE,10,Delaware,1020279,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,DE,10,Delaware,1035354,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,DE,10,Delaware,1050123,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,DE,10,Delaware,1059952,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,DC,11,District of Columbia,670958,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,DC,11,District of Columbia,669637,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,DC,11,District of Columbia,674501,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,DC,11,District of Columbia,682559,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,DC,11,District of Columbia,691310,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,DC,11,District of Columbia,693645,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,FL,12,Florida,21591325,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,FL,12,Florida,21836698,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,FL,12,Florida,22413989,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,FL,12,Florida,22929248,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,FL,12,Florida,23265838,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,FL,12,Florida,23462518,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,GA,13,Georgia,10732595,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,GA,13,Georgia,10793038,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,GA,13,Georgia,10929992,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,GA,13,Georgia,11063669,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,GA,13,Georgia,11204208,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,GA,13,Georgia,11302748,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,HI,15,Hawaii,1451130,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,HI,15,Hawaii,1446909,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,HI,15,Hawaii,1437812,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,HI,15,Hawaii,1434950,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,HI,15,Hawaii,1434952,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,HI,15,Hawaii,1432820,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,ID,16,Idaho,1849328,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,ID,16,Idaho,1904855,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,ID,16,Idaho,1942951,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,ID,16,Idaho,1970497,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,ID,16,Idaho,2000872,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,ID,16,Idaho,2029733,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,IL,17,Illinois,12795348,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,IL,17,Illinois,12703354,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,IL,17,Illinois,12609577,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,IL,17,Illinois,12633389,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,IL,17,Illinois,12703033,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,IL,17,Illinois,12719141,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,IN,18,Indiana,6790290,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,IN,18,Indiana,6814223,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,IN,18,Indiana,6841491,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,IN,18,Indiana,6881373,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,IN,18,Indiana,6934754,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,IN,18,Indiana,6973333,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,IA,19,Iowa,3191081,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,IA,19,Iowa,3199037,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,IA,19,Iowa,3201890,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,IA,19,Iowa,3214739,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,IA,19,Iowa,3230454,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,IA,19,Iowa,3238387,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,KS,20,Kansas,2938274,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,KS,20,Kansas,2938966,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,KS,20,Kansas,2938034,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,KS,20,Kansas,2949749,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,KS,20,Kansas,2965252,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,KS,20,Kansas,2977220,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,KY,21,Kentucky,4508271,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,KY,21,Kentucky,4508348,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,KY,21,Kentucky,4521238,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,KY,21,Kentucky,4549953,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,KY,21,Kentucky,4584046,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,KY,21,Kentucky,4606864,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,LA,22,Louisiana,4652145,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,LA,22,Louisiana,4628595,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,LA,22,Louisiana,4600892,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,LA,22,Louisiana,4598777,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,LA,22,Louisiana,4614878,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,LA,22,Louisiana,4618189,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,ME,23,Maine,1364546,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,ME,23,Maine,1379009,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,ME,23,Maine,1391585,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,ME,23,Maine,1401992,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,ME,23,Maine,1408438,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,ME,23,Maine,1414874,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,MD,24,Maryland,6178387,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,MD,24,Maryland,6176035,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,MD,24,Maryland,6183257,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,MD,24,Maryland,6204927,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,MD,24,Maryland,6245314,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,MD,24,Maryland,6265347,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,MA,25,Massachusetts,6985320,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,MA,25,Massachusetts,6996721,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,MA,25,Massachusetts,7025465,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,MA,25,Massachusetts,7073479,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,MA,25,Massachusetts,7138560,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,MA,25,Massachusetts,7154084,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,MI,26,Michigan,10072294,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,MI,26,Michigan,10042362,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,MI,26,Michigan,10043906,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,MI,26,Michigan,10062124,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,MI,26,Michigan,10099962,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,MI,26,Michigan,10127884,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,MN,27,Minnesota,5710562,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,MN,27,Minnesota,5714055,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,MN,27,Minnesota,5727565,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,MN,27,Minnesota,5752998,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,MN,27,Minnesota,5797405,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,MN,27,Minnesota,5830405,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,MS,28,Mississippi,2958385,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,MS,28,Mississippi,2947603,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,MS,28,Mississippi,2941237,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,MS,28,Mississippi,2942470,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,MS,28,Mississippi,2950172,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,MS,28,Mississippi,2954160,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,MO,29,Missouri,6155074,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,MO,29,Missouri,6172551,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,MO,29,Missouri,6179285,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,MO,29,Missouri,6205956,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,MO,29,Missouri,6243544,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,MO,29,Missouri,6270541,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,MT,30,Montana,1087156,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,MT,30,Montana,1106416,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,MT,30,Montana,1121533,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,MT,30,Montana,1130612,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,MT,30,Montana,1137557,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,MT,30,Montana,1144694,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,NE,31,Nebraska,1963318,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,NE,31,Nebraska,1964697,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,NE,31,Nebraska,1972595,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,NE,31,Nebraska,1988172,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,NE,31,Nebraska,2005591,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,NE,31,Nebraska,2018006,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,NV,32,Nevada,3116851,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,NV,32,Nevada,3148472,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,NV,32,Nevada,3177672,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,NV,32,Nevada,3211077,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,NV,32,Nevada,3253543,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,NV,32,Nevada,3282188,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,NH,33,New Hampshire,1378752,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,NH,33,New Hampshire,1387907,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,NH,33,New Hampshire,1396647,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,NH,33,New Hampshire,1401530,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,NH,33,New Hampshire,1408518,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,NH,33,New Hampshire,1415342,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,NJ,34,New Jersey,9270476,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,NJ,34,New Jersey,9266509,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,NJ,34,New Jersey,9298402,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,NJ,34,New Jersey,9395315,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,NJ,34,New Jersey,9506354,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,NJ,34,New Jersey,9548215,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,NM,35,New Mexico,2118446,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,NM,35,New Mexico,2117300,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,NM,35,New Mexico,2112859,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,NM,35,New Mexico,2119349,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,NM,35,New Mexico,2126774,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,NM,35,New Mexico,2125498,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,NY,36,New York,20122262,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,NY,36,New York,19835345,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,NY,36,New York,19713025,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,NY,36,New York,19786543,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,NY,36,New York,20001419,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,NY,36,New York,20002427,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,NC,37,North Carolina,10450215,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,NC,37,North Carolina,10565503,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,NC,37,North Carolina,10705768,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,NC,37,North Carolina,10871849,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,NC,37,North Carolina,11052061,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,NC,37,North Carolina,11197968,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,ND,38,North Dakota,779612,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,ND,38,North Dakota,777977,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,ND,38,North Dakota,780191,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,ND,38,North Dakota,787071,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,ND,38,North Dakota,793387,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,ND,38,North Dakota,799358,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,OH,39,Ohio,11798534,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,OH,39,Ohio,11761443,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,OH,39,Ohio,11764950,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,OH,39,Ohio,11808390,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,OH,39,Ohio,11860621,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,OH,39,Ohio,11900510,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,OK,40,Oklahoma,3965243,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,OK,40,Oklahoma,3992760,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,OK,40,Oklahoma,4025327,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,OK,40,Oklahoma,4062716,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,OK,40,Oklahoma,4097758,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,OK,40,Oklahoma,4123288,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,OR,41,Oregon,4243544,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,OR,41,Oregon,4254691,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,OR,41,Oregon,4245964,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,OR,41,Oregon,4250392,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,OR,41,Oregon,4265324,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,OR,41,Oregon,4273586,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,PA,42,Pennsylvania,12995576,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,PA,42,Pennsylvania,13016628,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,PA,42,Pennsylvania,12984655,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,PA,42,Pennsylvania,13009406,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,PA,42,Pennsylvania,13045848,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,PA,42,Pennsylvania,13059432,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,RI,44,Rhode Island,1096487,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,RI,44,Rhode Island,1097381,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,RI,44,Rhode Island,1098275,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,RI,44,Rhode Island,1101183,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,RI,44,Rhode Island,1110415,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,RI,44,Rhode Island,1114521,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,SC,45,South Carolina,5131992,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,SC,45,South Carolina,5194346,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,SC,45,South Carolina,5288957,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,SC,45,South Carolina,5390798,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,SC,45,South Carolina,5490316,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,SC,45,South Carolina,5570274,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,SD,46,South Dakota,887808,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,SD,46,South Dakota,896303,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,SD,46,South Dakota,909156,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,SD,46,South Dakota,917739,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,SD,46,South Dakota,927110,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,SD,46,South Dakota,935094,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,TN,47,Tennessee,6927736,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,TN,47,Tennessee,6966687,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,TN,47,Tennessee,7063325,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,TN,47,Tennessee,7153029,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,TN,47,Tennessee,7251291,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,TN,47,Tennessee,7315076,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,TX,48,Texas,29237895,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,TX,48,Texas,29572672,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,TX,48,Texas,30118002,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,TX,48,Texas,30719247,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,TX,48,Texas,31318578,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,TX,48,Texas,31709821,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,UT,49,Utah,3283970,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,UT,49,Utah,3339874,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,UT,49,Utah,3393928,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,UT,49,Utah,3449259,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,UT,49,Utah,3502983,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,UT,49,Utah,3538904,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,VT,50,Vermont,642965,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,VT,50,Vermont,647238,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,VT,50,Vermont,647614,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,VT,50,Vermont,647722,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,VT,50,Vermont,646521,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,VT,50,Vermont,644663,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,VA,51,Virginia,8637303,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,VA,51,Virginia,8660007,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,VA,51,Virginia,8681038,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,VA,51,Virginia,8732034,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,VA,51,Virginia,8819642,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,VA,51,Virginia,8880107,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,WA,53,Washington,7726812,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,WA,53,Washington,7744316,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,WA,53,Washington,7786828,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,WA,53,Washington,7838655,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,WA,53,Washington,7927958,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,WA,53,Washington,8001020,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,WV,54,West Virginia,1791670,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,WV,54,West Virginia,1785921,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,WV,54,West Virginia,1774003,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,WV,54,West Virginia,1770036,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,WV,54,West Virginia,1767402,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,WV,54,West Virginia,1766147,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,WI,55,Wisconsin,5897371,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,WI,55,Wisconsin,5882128,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,WI,55,Wisconsin,5903472,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,WI,55,Wisconsin,5930350,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,WI,55,Wisconsin,5957168,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,WI,55,Wisconsin,5972787,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,WY,56,Wyoming,577669,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,WY,56,Wyoming,579662,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,WY,56,Wyoming,581742,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,WY,56,Wyoming,584666,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,WY,56,Wyoming,586722,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,WY,56,Wyoming,588753,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2020,PR,72,Puerto Rico,3281591,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,PR,72,Puerto Rico,3262731,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,PR,72,Puerto Rico,3220148,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,PR,72,Puerto Rico,3203794,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,PR,72,Puerto Rico,3202521,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,PR,72,Puerto Rico,3184835,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2015,US,00,United States,320635163,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2016,US,00,United States,322941311,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2017,US,00,United States,324985539,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2018,US,00,United States,326687501,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2019,US,00,United States,328239523,Census PEP Vintage 2019,https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/national/totals/nst-est2019-alldata.csv
+2020,US,00,United States,331578104,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2021,US,00,United States,332100166,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2022,US,00,United States,333996304,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2023,US,00,United States,336755052,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2024,US,00,United States,340003797,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv
+2025,US,00,United States,341784857,Census PEP Vintage 2025,https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/state/totals/NST-EST2025-ALLDATA.csv

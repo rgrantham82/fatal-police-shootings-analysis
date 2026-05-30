@@ -1,0 +1,13 @@
+table,field,definition
+clean_incidents,incident_id,Unique Fatal Force incident/victim ID from source v2 file.
+clean_incidents,year/month/quarter,Derived from incident_date for time-series analysis.
+clean_incidents,state_fips/state_name,Added using Census/USPS state crosswalk to support joins with population denominators.
+clean_incidents,race_label,Human-readable expansion of source race/ethnicity codes; multi-value source records are semicolon-expanded in the label.
+clean_incidents,is_unarmed,True when armed_with includes unarmed.
+clean_incidents,armed_with_gun,True when armed_with includes gun.
+clean_incidents,agency_count,Count of semicolon-delimited agencies in agency_ids.
+incident_agency_bridge,agency_id,One row per incident-agency pair. Use this bridge for agency joins; do not naïvely join incident.agency_ids to agencies.
+state_population,population,"Annual Census Population Estimates Program resident population, July 1 estimates unless Census documentation specifies base values."
+state_year_rates,fatal_shootings_per_1m,"fatal_shootings / state population * 1,000,000."
+state_overall_rates,annualized_fatal_shootings_per_1m,"2015-2024 fatal shooting count divided by average 2015-2024 state population and 10 years, then multiplied by 1,000,000."
+race_year_numerator_summary,rate_per_1m_total_us_population_NOT_GROUP_SPECIFIC,"Screening metric only. Uses total U.S. population, not race-specific denominators."

@@ -1,0 +1,13 @@
+file_name,description
+01_national_fatal_shootings_trend.png,National fatal shootings by year
+02_national_rate_per_1m_trend.png,National fatal shooting rate per 1M by year
+03_top15_states_annualized_rate.png,Top 15 states by annualized rate per 1M
+04_unarmed_rate_vs_overall_rate_scatter.png,Average unarmed rate vs overall annualized rate by state
+05_top10_states_rate_trends.png,Top 10 state rate trends over time
+06_model_comparison_count_mae.png,Holdout model comparison by count MAE
+07_actual_vs_predicted_best_model.png,Actual vs predicted holdout counts for best model
+08_residual_distribution_best_model.png,Residual distribution for best holdout model
+09_top15_states_2025_forecast_rate.png,Top 15 states by exploratory 2025 forecast rate per 1M
+10_largest_forecast_changes_2025_vs_2024.png,Largest forecasted changes from 2024 actual to 2025 forecast
+11_top_feature_importance.png,Top feature importance / coefficient magnitude
+12_national_unarmed_rate_trend.png,National unarmed rate trend

@@ -1,0 +1,144 @@
+field,role,source,leakage_status,notes
+state_abbr,identifier/static feature,cleaned state-year rates + Census population denominators,safe,Base state-year field
+state_fips,identifier/static feature,cleaned state-year rates + Census population denominators,safe,Base state-year field
+state_name,identifier/static feature,cleaned state-year rates + Census population denominators,safe,Base state-year field
+region,identifier/static feature,cleaned state-year rates + Census population denominators,safe,Base state-year field
+division,identifier/static feature,cleaned state-year rates + Census population denominators,safe,Base state-year field
+year,identifier/static feature,cleaned state-year rates + Census population denominators,safe,Base state-year field
+is_forecast_year,identifier/static feature,cleaned state-year rates + Census population denominators,safe,Base state-year field
+fatal_shootings,identifier/target/exposure,cleaned state-year rates + Census population denominators,safe,Base state-year field
+population,identifier/target/exposure,cleaned state-year rates + Census population denominators,safe,Base state-year field
+log_population,identifier/static feature,cleaned state-year rates + Census population denominators,safe,Base state-year field
+population_growth_1yr,identifier/static feature,cleaned state-year rates + Census population denominators,safe,Base state-year field
+fatal_shootings_per_1m,identifier/target/exposure,cleaned state-year rates + Census population denominators,target-derived,Base state-year field
+year_index,identifier/static feature,cleaned state-year rates + Census population denominators,safe,Base state-year field
+post_2020,identifier/static feature,cleaned state-year rates + Census population denominators,safe,Base state-year field
+unarmed_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+gun_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+vehicle_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+mental_illness_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+body_camera_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+male_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+median_age,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+multi_agency_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+avg_agency_count,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+unique_agencies,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+race_W_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+race_B_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+race_H_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+race_A_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+race_N_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+race_O_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+threat_shoot_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+threat_threat_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+threat_point_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+threat_attack_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+threat_move_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+threat_flee_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+threat_undetermined_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+flee_not_fleeing_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+flee_car_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+flee_foot_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+flee_other_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+agency_type_local_police_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+agency_type_sheriff_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+agency_type_state_police_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+agency_type_federal_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+agency_type_local_other_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+agency_type_state_other_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+agency_type_other_share,descriptive current-year composition,incident and agency aggregates,do_not_use_for_same_year_prediction,Current-year descriptive variable; lagged versions are used for prediction
+fatal_shootings_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+fatal_shootings_lag2,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+fatal_shootings_lag3,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+fatal_rate_per_1m_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+fatal_rate_per_1m_lag2,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+fatal_rate_per_1m_lag3,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+fatal_shootings_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+fatal_shootings_roll3_sd,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+fatal_rate_per_1m_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+fatal_rate_per_1m_roll3_sd,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+fatal_count_lag1_delta,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+fatal_rate_lag1_delta,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+prev_national_rate_per_1m,predictor,engineered static category,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+prev_national_rate_expected_count,predictor,engineered static category,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+unarmed_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+unarmed_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+gun_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+gun_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+vehicle_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+vehicle_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+mental_illness_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+mental_illness_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+body_camera_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+body_camera_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+male_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+male_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+median_age_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+median_age_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+multi_agency_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+multi_agency_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+avg_agency_count_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+avg_agency_count_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+unique_agencies_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+unique_agencies_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+race_W_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+race_W_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+race_B_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+race_B_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+race_H_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+race_H_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+race_A_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+race_A_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+race_N_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+race_N_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+race_O_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+race_O_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+threat_shoot_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+threat_shoot_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+threat_threat_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+threat_threat_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+threat_point_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+threat_point_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+threat_attack_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+threat_attack_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+threat_move_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+threat_move_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+threat_flee_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+threat_flee_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+threat_undetermined_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+threat_undetermined_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+flee_not_fleeing_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+flee_not_fleeing_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+flee_car_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+flee_car_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+flee_foot_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+flee_foot_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+flee_other_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+flee_other_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+agency_type_local_police_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+agency_type_local_police_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+agency_type_sheriff_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+agency_type_sheriff_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+agency_type_state_police_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+agency_type_state_police_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+agency_type_federal_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+agency_type_federal_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+agency_type_local_other_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+agency_type_local_other_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+agency_type_state_other_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+agency_type_state_other_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+agency_type_other_share_lag1,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+agency_type_other_share_roll3_avg,predictor,engineered lag/rolling feature,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+region_Midwest,predictor,engineered static category,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+region_Northeast,predictor,engineered static category,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+region_South,predictor,engineered static category,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+region_West,predictor,engineered static category,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+division_East_North_Central,predictor,engineered static category,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+division_East_South_Central,predictor,engineered static category,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+division_Middle_Atlantic,predictor,engineered static category,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+division_Mountain,predictor,engineered static category,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+division_New_England,predictor,engineered static category,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+division_Pacific,predictor,engineered static category,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+division_South_Atlantic,predictor,engineered static category,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+division_West_North_Central,predictor,engineered static category,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded
+division_West_South_Central,predictor,engineered static category,safe_lagged_or_static,Included in enhanced model feature set unless otherwise excluded

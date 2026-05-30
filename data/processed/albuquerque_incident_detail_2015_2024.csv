@@ -1,0 +1,78 @@
+incident_id,incident_date,year,victim_name,age,gender,race_label,armed_with,threat_type,flee_status,was_mental_illness_related,body_camera,city,county,state_abbr,latitude,longitude,apd_involved,agencies_involved
+46,2015-01-13,2015,John Edward O'Keefe,34.0,male,White,gun,shoot,foot,False,True,Albuquerque,Bernalillo,NM,35.094656,-106.586248,True,Albuquerque Police Department
+445,2015-05-03,2015,Billy Grimm,44.0,male,Hispanic,gun,point,not_fleeing,False,False,Albuquerque,Bernalillo,NM,35.051983,-106.68746,False,Bernalillo County Sheriff's Department
+692,2015-07-31,2015,Rafael Molina Jr.,33.0,male,Hispanic,gun,point,not_fleeing,False,True,Albuquerque,Bernalillo,NM,35.0726273,-106.6431762,True,Albuquerque Police Department
+997,2015-11-11,2015,Joseph Jaramillo,31.0,male,Hispanic,missing,threat,car,False,False,Albuquerque,Bernalillo,NM,35.0618824,-106.6832523,False,Bernalillo County Sheriff's Department
+1117,2015-12-22,2015,Jose Rodriguez,19.0,male,Hispanic,gun,undetermined,foot,False,True,Albuquerque,Bernalillo,NM,35.0756535,-106.5658348,True,Albuquerque Police Department
+1232,2016-02-01,2016,Edgar Rene Alvarado,21.0,male,Hispanic,gun,shoot,car,True,True,Albuquerque,Bernalillo,NM,35.0937578,-106.5834068,True,Albuquerque Police Department; Bernalillo County Sheriff's Department
+1294,2016-02-20,2016,Edgar Camacho-Alvarado,23.0,male,Hispanic,gun,point,foot,False,False,Albuquerque,Bernalillo,NM,35.079544,-106.719762,False,U.S. Marshals Service
+1492,2016-04-26,2016,Jacquelyn Burke,24.0,female,White,gun,point,car,True,False,Albuquerque,Bernalillo,NM,35.1456334,-106.5267234,False,Bernalillo County Sheriff's Department
+1567,2016-05-24,2016,Mario Montoya,31.0,male,Hispanic,gun,shoot,not_fleeing,False,False,Albuquerque,Bernalillo,NM,35.0694603,-106.5096836,True,Albuquerque Police Department; U.S. Marshals Service
+1582,2016-05-28,2016,Dennis Humphrey,58.0,male,White,gun,point,not_fleeing,False,True,Albuquerque,Bernalillo,NM,35.128322,-106.601025,True,Albuquerque Police Department
+1837,2016-06-16,2016,Ronald Delfino,21.0,male,Hispanic,gun,shoot,car,False,False,Albuquerque,,NM,,,True,Albuquerque Police Department
+2203,2017-01-07,2017,Gilbert Zambronio-Lovato,38.0,male,Hispanic,replica,threat,not_fleeing,False,False,Albuquerque,Bernalillo,NM,35.1236886,-106.6040344,True,Albuquerque Police Department
+2737,2017-07-04,2017,Miguel Gonzales,28.0,male,Hispanic,gun,undetermined,other,False,False,Albuquerque,Bernalillo,NM,35.0525879,-106.7219408,False,Bernalillo County Sheriff's Department
+2813,2017-07-28,2017,Raymond Cruz,37.0,male,Hispanic,missing,attack,car,False,False,Albuquerque,Bernalillo,NM,34.9917498,-106.6649591,False,Bernalillo County Sheriff's Department
+2823,2017-07-31,2017,Robert Savelli,43.0,male,White,gun,point,not_fleeing,False,True,Albuquerque,,NM,35.1092715,-106.6146673,True,Albuquerque Police Department
+2890,2017-08-22,2017,Henry Rivera Jr.,71.0,male,Hispanic,missing,attack,car,False,False,Albuquerque,Bernalillo,NM,35.2033113,-106.7033371,False,Rio Rancho Police Department
+3133,2017-11-10,2017,Matthew Joseph Scudero,50.0,male,White,gun,shoot,not_fleeing,False,False,Albuquerque,Bernalillo,NM,35.1986218,-106.610671,False,Bernalillo County Sheriff's Department
+3145,2017-11-17,2017,Martin Jim,25.0,male,White,unarmed,accident,car,False,False,Albuquerque,Bernalillo,NM,35.0973532,-106.7084002,False,Bernalillo County Sheriff's Department
+3146,2017-11-17,2017,Isaac Padilla,23.0,male,Hispanic,unarmed,flee,car,False,False,Albuquerque,Bernalillo,NM,35.0973532,-106.7084002,False,Bernalillo County Sheriff's Department
+3268,2018-01-06,2018,Daniel Saavedra-Arreola,24.0,male,Hispanic,knife;blunt_object,threat,not_fleeing,False,False,Albuquerque,Bernalillo,NM,35.0780365,-106.5453162,True,Albuquerque Police Department
+3754,2018-06-07,2018,Wes Allen,33.0,male,White,gun,shoot,car,False,False,Albuquerque,Bernalillo,NM,35.069122,-106.638414,False,U.S. Marshals Service
+3783,2018-06-16,2018,Richard Rivera,47.0,male,Hispanic,unarmed,missing,car,False,False,Albuquerque,Bernalillo,NM,35.0750602,-106.6220968,True,Albuquerque Police Department
+3941,2018-07-15,2018,Jonathan Molina,23.0,male,Hispanic,gun,attack,not_fleeing,False,False,Albuquerque,,NM,35.0697377,-106.6392485,False,New Mexico State Police
+3866,2018-07-18,2018,Arthur Lujan,30.0,male,Hispanic,gun,shoot,not_fleeing,False,False,Albuquerque,Bernalillo,NM,35.13053,-106.7160321,True,Albuquerque Police Department; New Mexico State Police
+4154,2018-11-04,2018,Anthony David Chavez,18.0,male,Hispanic,gun,threat,not_fleeing,False,False,Albuquerque,,NM,35.0582642,-106.5687495,True,Albuquerque Police Department
+4300,2018-12-12,2018,Gabriel Romero,19.0,male,Hispanic,gun,shoot,foot,True,False,Albuquerque,,NM,35.1232742,-106.5865515,True,Albuquerque Police Department
+4326,2018-12-23,2018,Jason Delgado Perez,36.0,male,Hispanic,gun,shoot,not_fleeing,True,False,Albuquerque,,NM,35.0800687,-106.5591354,True,Albuquerque Police Department
+4327,2018-12-24,2018,Abdias Flores,35.0,male,Hispanic,gun,shoot,not_fleeing,False,False,Albuquerque,,NM,35.106927,-106.606178,True,Albuquerque Police Department
+4839,2019-07-02,2019,Casiano Coronel,21.0,male,Unknown,gun,shoot,not_fleeing,False,False,Albuquerque,,NM,35.0738245,-106.5503127,True,Albuquerque Police Department
+4889,2019-07-21,2019,Elisha Lucero,28.0,female,Hispanic,knife,move,not_fleeing,True,False,Albuquerque,,NM,35.0270934,-106.6582166,False,Bernalillo County Sheriff's Department
+4972,2019-08-22,2019,Roger Schafer,57.0,male,White,replica,point,not_fleeing,False,False,Albuquerque,,NM,35.0793991,-106.5293862,True,Albuquerque Police Department
+5092,2019-10-14,2019,Daniel James Wood Jr.,29.0,male,Unknown,gun,point,not_fleeing,False,False,Albuquerque,,NM,35.0801986,-106.5566807,True,Albuquerque Police Department
+5136,2019-10-25,2019,Raymond V. Tahod,27.0,male,Unknown,gun,threat,car,False,False,Albuquerque,,NM,35.1091797,-106.604248,True,Albuquerque Police Department
+5354,2020-01-06,2020,Orlando Abeyta,28.0,male,Hispanic,gun,move,not_fleeing,False,False,Albuquerque,,NM,35.0754518,-106.5652647,True,Albuquerque Police Department
+5701,2020-03-31,2020,Valente Acosta-Bustillos,52.0,male,Hispanic,blunt_object,threat,not_fleeing,True,False,Albuquerque,,NM,35.0746008,-106.6432443,True,Albuquerque Police Department
+6060,2020-08-10,2020,Jose Vallejos,48.0,male,Hispanic,gun,point,missing,False,False,Albuquerque,,NM,35.1590705,-106.692226,True,Albuquerque Police Department
+6062,2020-08-10,2020,Kenneth Reiss,50.0,male,White,gun,shoot,foot,False,False,Albuquerque,,NM,35.073659,-106.6145679,True,Albuquerque Police Department
+6109,2020-08-24,2020,David Sanchez,,male,Hispanic,gun,shoot,missing,False,False,Albuquerque,,NM,35.1845,-106.5704343,False,Bernalillo County Sheriff's Department
+6366,2020-10-12,2020,Matthew Montoya,52.0,male,Hispanic,gun,threat,not_fleeing,False,False,Albuquerque,,NM,35.0918743,-106.5770471,True,Albuquerque Police Department
+6558,2021-01-31,2021,Ezekiel Meza,41.0,male,Hispanic,gun,shoot,foot,False,True,Albuquerque,,NM,35.0661986,-106.691803,False,Bernalillo County Sheriff's Department
+6623,2021-02-20,2021,Claude Trivino,40.0,male,Hispanic,knife,attack,foot,True,True,Albuquerque,,NM,35.0807376,-106.5861027,True,Albuquerque Police Department
+7392,2021-07-14,2021,Marquez Floyd,31.0,male,Black,gun,shoot,not_fleeing,False,False,Albuquerque,,NM,,,False,Federal Bureau of Investigation
+7095,2021-08-15,2021,Eric Padilla,33.0,male,Hispanic,gun,point,foot,False,True,Albuquerque,,NM,35.1052481,-106.5502924,True,Albuquerque Police Department
+7376,2021-11-26,2021,Elijah Jacob Riche,18.0,male,White; Hispanic,gun,threat,missing,False,True,Albuquerque,Bernalillo,NM,35.1326283469605,-106.6298974783428,False,Bernalillo County Sheriff's Department
+7479,2021-12-07,2021,Mario Armando Diaz,41.0,male,Hispanic,unarmed,attack,foot,False,False,Albuquerque,,NM,,,False,Bernalillo County Sheriff's Department
+7705,2022-02-01,2022,Devin Morris,31.0,male,White,gun,flee,foot,False,False,Albuquerque,,NM,,,True,Albuquerque Police Department
+7787,2022-03-14,2022,John Dawson Hunter,52.0,male,White,gun,shoot,missing,True,False,Albuquerque,Bernalillo,NM,35.130773076546525,-106.49282963642378,True,Albuquerque Police Department
+7851,2022-03-19,2022,Collin Neztsosie,33.0,male,Native American,unarmed,move,not_fleeing,False,False,Albuquerque,,NM,35.0681039,-106.4977328,True,Albuquerque Police Department
+7928,2022-04-01,2022,Taylor John Crabb,37.0,male,White,gun;vehicle,shoot,car,False,False,Albuquerque,,NM,35.0511881,-106.6702788,False,Bernalillo County Sheriff's Department
+7970,2022-04-06,2022,John A. Withers,20.0,male,Unknown,gun,shoot,foot,False,True,Albuquerque,,NM,35.1388696,-106.5334574,True,Albuquerque Police Department
+8154,2022-06-19,2022,Frank Baty,58.0,male,Black,replica,threat,not_fleeing,True,False,Albuquerque,,NM,35.0849929,-106.6493478,True,Albuquerque Police Department
+8189,2022-06-27,2022,,,male,Unknown,gun,threat,missing,False,False,Albuquerque,,NM,,,False,U.S. Marshals Service
+8277,2022-07-21,2022,Wendel Tagle,43.0,male,Asian heritage,gun,shoot,missing,True,False,Albuquerque,,NM,,,True,Albuquerque Police Department
+8366,2022-08-28,2022,Keshawn Thomas,27.0,male,Black; Hispanic,gun,point,missing,False,False,Albuquerque,,NM,35.1149857,-106.7022261,True,Albuquerque Police Department
+8570,2022-11-05,2022,Julian Sanchez,21.0,male,Hispanic,gun,threat,not_fleeing,False,False,Albuquerque,,NM,35.0902369,-106.4979257,True,Albuquerque Police Department
+8581,2022-11-10,2022,Jesus Crosby,41.0,male,Hispanic,knife,threat,foot,False,False,Albuquerque,,NM,35.0888703,-106.6513538,True,Albuquerque Police Department
+8629,2022-11-16,2022,,,missing,Unknown,knife,move,car,False,False,Albuquerque,,NM,35.1295504,-106.5672494,False,New Mexico State Police
+8740,2022-11-17,2022,Roberto Armijo,34.0,male,Hispanic,knife,threat,car,True,True,Albuquerque,Bernalillo,NM,35.13075697780115,-106.56852356431258,False,New Mexico State Police
+8671,2022-11-25,2022,Blaine Denetdele,30.0,male,Native American,knife,threat,not_fleeing,True,False,Albuquerque,,NM,35.0419954,-106.7495187,True,Albuquerque Police Department
+9126,2023-04-16,2023,Jared Romero,35.0,male,Unknown,knife,threat,not_fleeing,True,True,Albuquerque,Bernalillo,NM,34.99641244483638,-106.70512220773048,False,Bernalillo County Sheriff's Department
+9705,2023-05-19,2023,David Gaylor,42.0,male,White,knife,attack,not_fleeing,True,False,Albuquerque,Bernalillo,NM,35.09103133562253,-106.67901858898308,True,Albuquerque Police Department
+9669,2023-06-24,2023,Mark Edward Peter,41.0,male,White,gun,shoot,not_fleeing,False,False,Albuquerque,Bernalillo,NM,35.073194047912324,-106.74258083163888,True,Albuquerque Police Department
+9327,2023-06-29,2023,Jeramiah Salyards,25.0,male,White; Hispanic,knife,threat,not_fleeing,False,False,Albuquerque,Bernalillo,NM,35.087113470684244,-106.56882640982276,True,Albuquerque Police Department
+9652,2023-07-20,2023,Emmanuel Galaviz Campos,20.0,male,Hispanic,gun,shoot,not_fleeing,False,True,Albuquerque,Bernalillo,NM,35.07695859203948,-106.49732328983052,True,Albuquerque Police Department; New Mexico State Police
+9468,2023-08-08,2023,Ahmad Nassar,32.0,male,Other,undetermined,missing,missing,True,False,Albuquerque,Bernalillo,NM,35.090170274712115,-106.5062503587118,False,Federal Bureau of Investigation
+9857,2023-11-12,2023,Joseph Ramos,,male,Unknown,undetermined,missing,car,False,False,Albuquerque,Bernalillo,NM,35.15616662955824,-106.63780088686626,False,Bernalillo County Sheriff's Department
+9892,2023-11-25,2023,Pete Martinez,36.0,male,Unknown,gun,threat,foot,False,False,Albuquerque,Bernalillo,NM,35.14079720239818,-106.59986637301697,True,Albuquerque Police Department
+9966,2023-12-07,2023,Mark Carlson,32.0,male,White,gun,threat,foot,False,False,Albuquerque,Bernalillo,NM,35.13099364123745,-106.59996706467528,True,Albuquerque Police Department
+10084,2024-01-25,2024,Joseph Dominic Baca,38.0,male,Hispanic,gun,point,not_fleeing,False,False,Albuquerque,Bernalillo,NM,35.10710297920408,-106.64989601323173,True,Albuquerque Police Department
+10217,2024-03-08,2024,Francisco Hernandez,35.0,male,Hispanic,gun,point,foot,False,False,Albuquerque,Bernalillo,NM,35.151723883658136,-106.5098231027226,False,New Mexico State Police
+10262,2024-03-19,2024,Mariah Voigt,33.0,female,Hispanic,unarmed,move,foot,False,False,Albuquerque,Bernalillo,NM,35.11617634405111,-106.53323300091591,True,Albuquerque Police Department
+10348,2024-04-11,2024,Mark Christian Benavidez Jr.,30.0,male,Hispanic,gun,shoot,not_fleeing,False,False,Albuquerque,Bernalillo,NM,35.10636694806515,-106.5507963702192,True,Albuquerque Police Department
+10599,2024-06-20,2024,Dale Meador,42.0,male,Unknown,replica,threat,car,False,False,Albuquerque,Bernalillo,NM,35.10655951323042,-106.70444074135315,True,Albuquerque Police Department
+10851,2024-08-17,2024,Derek Darnell Pickett,44.0,male,Black,gun,threat,foot,False,False,Albuquerque,Bernalillo,NM,35.080497146010394,-106.64388940009702,True,Albuquerque Police Department
+11040,2024-10-13,2024,Matthew Sanchez,41.0,male,Hispanic,gun,threat,not_fleeing,False,False,Albuquerque,Bernalillo,NM,35.07007835051782,-106.52483600654854,True,Albuquerque Police Department
+11054,2024-10-18,2024,Matthew Freddie Garcia,39.0,male,Unknown,gun,undetermined,not_fleeing,False,True,Albuquerque,Bernalillo,NM,35.0821671113886,-106.70108630777504,True,Albuquerque Police Department
+11143,2024-11-11,2024,Anthony Hernandez,30.0,male,Unknown,gun,shoot,missing,False,False,Albuquerque,Bernalillo,NM,35.105678293518,-106.587871954946,True,Albuquerque Police Department

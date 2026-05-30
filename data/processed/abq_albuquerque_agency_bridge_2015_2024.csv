@@ -1,0 +1,82 @@
+incident_id,incident_date,year,state_abbr,agency_id,agency_name,agency_type,agency_state_abbr,agency_state_name,multi_agency_incident
+46,2015-01-13,2015,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+445,2015-05-03,2015,NM,469,Bernalillo County Sheriff's Department,sheriff,NM,New Mexico,False
+692,2015-07-31,2015,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+997,2015-11-11,2015,NM,469,Bernalillo County Sheriff's Department,sheriff,NM,New Mexico,False
+1117,2015-12-22,2015,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+1232,2016-02-01,2016,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,True
+1232,2016-02-01,2016,NM,469,Bernalillo County Sheriff's Department,sheriff,NM,New Mexico,True
+1294,2016-02-20,2016,NM,1114,U.S. Marshals Service,federal,NM,New Mexico,False
+1492,2016-04-26,2016,NM,469,Bernalillo County Sheriff's Department,sheriff,NM,New Mexico,False
+1567,2016-05-24,2016,NM,1114,U.S. Marshals Service,federal,NM,New Mexico,True
+1567,2016-05-24,2016,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,True
+1582,2016-05-28,2016,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+1837,2016-06-16,2016,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+2203,2017-01-07,2017,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+2737,2017-07-04,2017,NM,469,Bernalillo County Sheriff's Department,sheriff,NM,New Mexico,False
+2813,2017-07-28,2017,NM,469,Bernalillo County Sheriff's Department,sheriff,NM,New Mexico,False
+2823,2017-07-31,2017,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+2890,2017-08-22,2017,NM,1848,Rio Rancho Police Department,local_police,NM,New Mexico,False
+3133,2017-11-10,2017,NM,469,Bernalillo County Sheriff's Department,sheriff,NM,New Mexico,False
+3145,2017-11-17,2017,NM,469,Bernalillo County Sheriff's Department,sheriff,NM,New Mexico,False
+3146,2017-11-17,2017,NM,469,Bernalillo County Sheriff's Department,sheriff,NM,New Mexico,False
+3268,2018-01-06,2018,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+3754,2018-06-07,2018,NM,1114,U.S. Marshals Service,federal,NM,New Mexico,False
+3783,2018-06-16,2018,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+3941,2018-07-15,2018,NM,81,New Mexico State Police,state_police,NM,New Mexico,False
+3866,2018-07-18,2018,NM,81,New Mexico State Police,state_police,NM,New Mexico,True
+3866,2018-07-18,2018,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,True
+4154,2018-11-04,2018,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+4300,2018-12-12,2018,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+4326,2018-12-23,2018,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+4327,2018-12-24,2018,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+4839,2019-07-02,2019,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+4889,2019-07-21,2019,NM,469,Bernalillo County Sheriff's Department,sheriff,NM,New Mexico,False
+4972,2019-08-22,2019,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+5092,2019-10-14,2019,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+5136,2019-10-25,2019,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+5354,2020-01-06,2020,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+5701,2020-03-31,2020,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+6060,2020-08-10,2020,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+6062,2020-08-10,2020,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+6109,2020-08-24,2020,NM,469,Bernalillo County Sheriff's Department,sheriff,NM,New Mexico,False
+6366,2020-10-12,2020,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+6558,2021-01-31,2021,NM,469,Bernalillo County Sheriff's Department,sheriff,NM,New Mexico,False
+6623,2021-02-20,2021,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+7392,2021-07-14,2021,NM,2385,Federal Bureau of Investigation,federal,NM,New Mexico,False
+7095,2021-08-15,2021,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+7376,2021-11-26,2021,NM,469,Bernalillo County Sheriff's Department,sheriff,NM,New Mexico,False
+7479,2021-12-07,2021,NM,469,Bernalillo County Sheriff's Department,sheriff,NM,New Mexico,False
+7705,2022-02-01,2022,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+7787,2022-03-14,2022,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+7851,2022-03-19,2022,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+7928,2022-04-01,2022,NM,469,Bernalillo County Sheriff's Department,sheriff,NM,New Mexico,False
+7970,2022-04-06,2022,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+8154,2022-06-19,2022,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+8189,2022-06-27,2022,NM,1114,U.S. Marshals Service,federal,NM,New Mexico,False
+8277,2022-07-21,2022,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+8366,2022-08-28,2022,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+8570,2022-11-05,2022,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+8581,2022-11-10,2022,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+8629,2022-11-16,2022,NM,81,New Mexico State Police,state_police,NM,New Mexico,False
+8740,2022-11-17,2022,NM,81,New Mexico State Police,state_police,NM,New Mexico,False
+8671,2022-11-25,2022,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+9126,2023-04-16,2023,NM,469,Bernalillo County Sheriff's Department,sheriff,NM,New Mexico,False
+9705,2023-05-19,2023,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+9669,2023-06-24,2023,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+9327,2023-06-29,2023,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+9652,2023-07-20,2023,NM,81,New Mexico State Police,state_police,NM,New Mexico,True
+9652,2023-07-20,2023,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,True
+9468,2023-08-08,2023,NM,2385,Federal Bureau of Investigation,federal,NM,New Mexico,False
+9857,2023-11-12,2023,NM,469,Bernalillo County Sheriff's Department,sheriff,NM,New Mexico,False
+9892,2023-11-25,2023,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+9966,2023-12-07,2023,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+10084,2024-01-25,2024,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+10217,2024-03-08,2024,NM,81,New Mexico State Police,state_police,NM,New Mexico,False
+10262,2024-03-19,2024,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+10348,2024-04-11,2024,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+10599,2024-06-20,2024,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+10851,2024-08-17,2024,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+11040,2024-10-13,2024,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+11054,2024-10-18,2024,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False
+11143,2024-11-11,2024,NM,508,Albuquerque Police Department,local_police,NM,New Mexico,False

@@ -1,0 +1,6 @@
+unit,scope,total_fatal_shootings,annualized_rate_per_1m,population_basis,population_value_used,rate_ratio_vs_us,rate_ratio_vs_nm
+United States,National baseline,10430,3.1625970975679034,"sum of state population person-years, 2015-2024",329792246,1.0,0.30408592041679744
+New Mexico,State baseline,219,10.400340447308668,"sum of annual NM population person-years, 2015-2024",2105700,3.288544233252704,1.0
+Albuquerque city,City within NM,77,13.742000192744937,constant 2024 Census QuickFacts city population denominator,560326,4.345163095012259,1.321302919107903
+"APD-involved, Albuquerque city",Agency involvement within city records,51,9.101844283506386,constant 2024 Census QuickFacts city population denominator,560326,2.877965166826301,0.8751486866818577
+Rest of New Mexico excluding Albuquerque city records,Approximate non-ABQ remainder,142,9.188714188280636,constant 2024 NM population minus constant 2024 Albuquerque city population,1545374,2.9054330680777927,0.8835012887158354

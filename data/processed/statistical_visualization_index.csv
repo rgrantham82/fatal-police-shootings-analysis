@@ -1,0 +1,20 @@
+file_name,description
+01_national_rate_trend_with_fit.png,National fatal police shooting rate per 1M residents with linear trend fit.
+02_national_unarmed_rate_trend_with_fit.png,National unarmed fatal police shooting rate per 1M residents with linear trend fit.
+03_body_camera_rate_trend_with_fit.png,Body-camera-indicated fatal shooting cases per 1M residents with linear trend fit.
+04_region_rate_distribution_boxplot.png,Distribution of state annualized rates by Census region.
+05_region_median_rate_bar.png,Median state annualized rate by Census region.
+06_largest_state_residuals_observed_minus_expected.png,States with largest positive and negative residuals against expected fatal shootings.
+07_observed_vs_expected_by_state_scatter.png,Observed versus expected fatal shootings by state with high-residual states labeled.
+08_overall_rate_vs_unarmed_rate_by_state.png,State-level relationship between overall fatal shooting rate and unarmed fatal shooting rate.
+09_body_camera_share_by_year.png,Yearly share of fatal shooting records with body camera indicated.
+10_body_camera_stacked_percent_by_year.png,Yearly body-camera indication composition as percentages.
+11_unarmed_share_by_race_known_race_only.png,Unarmed share by race category among known-race records.
+12_race_unarmed_count_comparison.png,Counts by race category and armed/unarmed status among known-race records.
+13_unarmed_share_by_mental_illness_flag.png,Unarmed share by mental-illness-related flag.
+14_pairwise_model_mae_differences.png,Paired model error differences: ensemble minus comparator models.
+15_pairwise_model_adjusted_pvalue_strength.png,Adjusted Wilcoxon p-value strength for pairwise model tests.
+16_statistical_test_pvalue_strength.png,Overall statistical test strength shown as -log10(p-value).
+17_significant_test_counts.png,Counts of significant tests under raw and adjusted criteria.
+18_holdout_actual_vs_predicted_ensemble.png,Holdout actual versus predicted counts for the ensemble model.
+19_holdout_ensemble_residual_distribution.png,Distribution of holdout residuals for the ensemble model.

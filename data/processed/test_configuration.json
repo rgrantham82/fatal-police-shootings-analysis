@@ -1,0 +1,17 @@
+{
+  "generated_utc": "2026-05-17T04:05:03.989357Z",
+  "input_files": {
+    "state_year_rates": "police_shootings_cleaned_percapita/state_year_rates_2015_2024.csv",
+    "national_year_rates": "police_shootings_cleaned_percapita/national_year_rates_2015_2024.csv",
+    "incidents": "police_shootings_cleaned_percapita/clean_incidents_v2.csv",
+    "holdout_predictions": "police_shootings_enhanced_prediction/enhanced_state_year_holdout_predictions.csv"
+  },
+  "post_2020_definition": "2021-2024 compared to 2015-2020",
+  "multiple_testing_adjustment": "Benjamini-Hochberg FDR across main statistical test p-values",
+  "software": {
+    "python": "3.x",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "statsmodels": "0.14.6"
+  }
+}
