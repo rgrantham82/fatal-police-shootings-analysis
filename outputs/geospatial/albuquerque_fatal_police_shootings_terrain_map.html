@@ -1,0 +1,3620 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5df8d0273f4ea2edf0c8d0fd326797e2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.fullscreen@3.0.0/Control.FullScreen.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.fullscreen@3.0.0/Control.FullScreen.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5df8d0273f4ea2edf0c8d0fd326797e2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5df8d0273f4ea2edf0c8d0fd326797e2 = L.map(
+                "map_5df8d0273f4ea2edf0c8d0fd326797e2",
+                {
+                    center: [35.095657088872564, -106.61221832236852],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_5df8d0273f4ea2edf0c8d0fd326797e2);
+
+            
+
+        
+    
+            var tile_layer_26932460142197244974c1b2a25431ed = L.tileLayer(
+                "https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Map data: \u00a9 OpenStreetMap contributors, SRTM | Map style: \u00a9 OpenTopoMap (CC-BY-SA)",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_26932460142197244974c1b2a25431ed.addTo(map_5df8d0273f4ea2edf0c8d0fd326797e2);
+        
+    
+            var tile_layer_d3deee81ac1d7b5d272bdc3b7426e179 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d3deee81ac1d7b5d272bdc3b7426e179.addTo(map_5df8d0273f4ea2edf0c8d0fd326797e2);
+        
+    
+            var marker_cluster_444af8c58f343b31913bf7cabc34e15c = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_67db9e7c1fe4fbfdaa8c2418e748dc85 = L.marker(
+                [35.094656, -106.586248],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_05e6d002db1b72118fa6bbd34fe7e94c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bb01f8bc0354062dc20286fb15f42e07 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_6a9eb4eba9343b676ef0aa5083b9978e = $(`<div id="html_6a9eb4eba9343b676ef0aa5083b9978e" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2015-01-13<br>     <b>Victim:</b> John Edward O&#x27;Keefe<br>     <b>Age:</b> 34.0<br>     <b>Race label:</b> White<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> shoot<br>     <b>Flee status:</b> foot<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_bb01f8bc0354062dc20286fb15f42e07.setContent(html_6a9eb4eba9343b676ef0aa5083b9978e);
+            
+        
+
+        marker_67db9e7c1fe4fbfdaa8c2418e748dc85.bindPopup(popup_bb01f8bc0354062dc20286fb15f42e07)
+        ;
+
+        
+    
+    
+            marker_67db9e7c1fe4fbfdaa8c2418e748dc85.bindTooltip(
+                `<div>
+                     2015-01-13 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_67db9e7c1fe4fbfdaa8c2418e748dc85.setIcon(icon_05e6d002db1b72118fa6bbd34fe7e94c);
+            
+    
+            var marker_180c037428b77f552ac17c140aad39ee = L.marker(
+                [35.051983, -106.68746],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_bcb67c54e385327a8cbb05baa821e4f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9b026419a6642a15be6b48c7267c1b78 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_54bd58665d8ff9ddbb63632a5a530d7c = $(`<div id="html_54bd58665d8ff9ddbb63632a5a530d7c" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2015-05-03<br>     <b>Victim:</b> Billy Grimm<br>     <b>Age:</b> 44.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> point<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> False<br>     <b>Agencies:</b> Bernalillo County Sheriff&#x27;s Department     </div>`)[0];
+                popup_9b026419a6642a15be6b48c7267c1b78.setContent(html_54bd58665d8ff9ddbb63632a5a530d7c);
+            
+        
+
+        marker_180c037428b77f552ac17c140aad39ee.bindPopup(popup_9b026419a6642a15be6b48c7267c1b78)
+        ;
+
+        
+    
+    
+            marker_180c037428b77f552ac17c140aad39ee.bindTooltip(
+                `<div>
+                     2015-05-03 00:00:00 | Non-APD / multi-agency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_180c037428b77f552ac17c140aad39ee.setIcon(icon_bcb67c54e385327a8cbb05baa821e4f7);
+            
+    
+            var marker_c9ddc32c247ae87e1e7036c645891042 = L.marker(
+                [35.0726273, -106.6431762],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_c2799509c62abbf1fe91db383ea36a4e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d18442fe86742b27be16c4cecd10bf9b = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_f70e4da20a0b69779fc0a8abf62cd614 = $(`<div id="html_f70e4da20a0b69779fc0a8abf62cd614" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2015-07-31<br>     <b>Victim:</b> Rafael Molina Jr.<br>     <b>Age:</b> 33.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> point<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_d18442fe86742b27be16c4cecd10bf9b.setContent(html_f70e4da20a0b69779fc0a8abf62cd614);
+            
+        
+
+        marker_c9ddc32c247ae87e1e7036c645891042.bindPopup(popup_d18442fe86742b27be16c4cecd10bf9b)
+        ;
+
+        
+    
+    
+            marker_c9ddc32c247ae87e1e7036c645891042.bindTooltip(
+                `<div>
+                     2015-07-31 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c9ddc32c247ae87e1e7036c645891042.setIcon(icon_c2799509c62abbf1fe91db383ea36a4e);
+            
+    
+            var marker_019635403fd6101a841e613d05d0d4f0 = L.marker(
+                [35.0618824, -106.6832523],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_3ac2f6b7006ff45068ffed3eea5dd510 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e8b032d0ad0d74a29f98e52b446202bc = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_9c57b444efaedfa328fee9889215fdec = $(`<div id="html_9c57b444efaedfa328fee9889215fdec" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2015-11-11<br>     <b>Victim:</b> Joseph Jaramillo<br>     <b>Age:</b> 31.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> missing<br>     <b>Threat type:</b> threat<br>     <b>Flee status:</b> car<br>     <b>APD involved:</b> False<br>     <b>Agencies:</b> Bernalillo County Sheriff&#x27;s Department     </div>`)[0];
+                popup_e8b032d0ad0d74a29f98e52b446202bc.setContent(html_9c57b444efaedfa328fee9889215fdec);
+            
+        
+
+        marker_019635403fd6101a841e613d05d0d4f0.bindPopup(popup_e8b032d0ad0d74a29f98e52b446202bc)
+        ;
+
+        
+    
+    
+            marker_019635403fd6101a841e613d05d0d4f0.bindTooltip(
+                `<div>
+                     2015-11-11 00:00:00 | Non-APD / multi-agency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_019635403fd6101a841e613d05d0d4f0.setIcon(icon_3ac2f6b7006ff45068ffed3eea5dd510);
+            
+    
+            var marker_e460704b0d0fd43655b40d0d20794b81 = L.marker(
+                [35.0756535, -106.5658348],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_3237335d49d31fba068aa6663d8d4cb1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_48e7c51a9e795c546e717781cab8c0b0 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_484b7cd97473c1e44c63c0ae95213845 = $(`<div id="html_484b7cd97473c1e44c63c0ae95213845" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2015-12-22<br>     <b>Victim:</b> Jose Rodriguez<br>     <b>Age:</b> 19.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> undetermined<br>     <b>Flee status:</b> foot<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_48e7c51a9e795c546e717781cab8c0b0.setContent(html_484b7cd97473c1e44c63c0ae95213845);
+            
+        
+
+        marker_e460704b0d0fd43655b40d0d20794b81.bindPopup(popup_48e7c51a9e795c546e717781cab8c0b0)
+        ;
+
+        
+    
+    
+            marker_e460704b0d0fd43655b40d0d20794b81.bindTooltip(
+                `<div>
+                     2015-12-22 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e460704b0d0fd43655b40d0d20794b81.setIcon(icon_3237335d49d31fba068aa6663d8d4cb1);
+            
+    
+            var marker_68b4eab8e551642a36cb7b6773e4d079 = L.marker(
+                [35.0937578, -106.5834068],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_f9f506c914684b4cfcd7837b205a7a76 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9ac07ab750f775f931ba60de62443d06 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_8187a0309e8db943489e5deb425b26a4 = $(`<div id="html_8187a0309e8db943489e5deb425b26a4" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2016-02-01<br>     <b>Victim:</b> Edgar Rene Alvarado<br>     <b>Age:</b> 21.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> shoot<br>     <b>Flee status:</b> car<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department; Bernalillo County Sheriff&#x27;s Department     </div>`)[0];
+                popup_9ac07ab750f775f931ba60de62443d06.setContent(html_8187a0309e8db943489e5deb425b26a4);
+            
+        
+
+        marker_68b4eab8e551642a36cb7b6773e4d079.bindPopup(popup_9ac07ab750f775f931ba60de62443d06)
+        ;
+
+        
+    
+    
+            marker_68b4eab8e551642a36cb7b6773e4d079.bindTooltip(
+                `<div>
+                     2016-02-01 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_68b4eab8e551642a36cb7b6773e4d079.setIcon(icon_f9f506c914684b4cfcd7837b205a7a76);
+            
+    
+            var marker_b492e9a8fac38b59cd6b9813f8695761 = L.marker(
+                [35.079544, -106.719762],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_5992255fbeee576ad15d5eff94eca185 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_955f93dac09a641ec49a0925886993a8 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_7feb58b911f5547a71ef81822945f422 = $(`<div id="html_7feb58b911f5547a71ef81822945f422" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2016-02-20<br>     <b>Victim:</b> Edgar Camacho-Alvarado<br>     <b>Age:</b> 23.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> point<br>     <b>Flee status:</b> foot<br>     <b>APD involved:</b> False<br>     <b>Agencies:</b> U.S. Marshals Service     </div>`)[0];
+                popup_955f93dac09a641ec49a0925886993a8.setContent(html_7feb58b911f5547a71ef81822945f422);
+            
+        
+
+        marker_b492e9a8fac38b59cd6b9813f8695761.bindPopup(popup_955f93dac09a641ec49a0925886993a8)
+        ;
+
+        
+    
+    
+            marker_b492e9a8fac38b59cd6b9813f8695761.bindTooltip(
+                `<div>
+                     2016-02-20 00:00:00 | Non-APD / multi-agency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b492e9a8fac38b59cd6b9813f8695761.setIcon(icon_5992255fbeee576ad15d5eff94eca185);
+            
+    
+            var marker_1825cc9ed8f3db24a24a908ee672d773 = L.marker(
+                [35.1456334, -106.5267234],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_394f405801032eb94be7b88667d8aa8f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_96a04981f03349ed810d171a37b6bc17 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_a64708d936b0c37ae3d2b332d700da7e = $(`<div id="html_a64708d936b0c37ae3d2b332d700da7e" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2016-04-26<br>     <b>Victim:</b> Jacquelyn Burke<br>     <b>Age:</b> 24.0<br>     <b>Race label:</b> White<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> point<br>     <b>Flee status:</b> car<br>     <b>APD involved:</b> False<br>     <b>Agencies:</b> Bernalillo County Sheriff&#x27;s Department     </div>`)[0];
+                popup_96a04981f03349ed810d171a37b6bc17.setContent(html_a64708d936b0c37ae3d2b332d700da7e);
+            
+        
+
+        marker_1825cc9ed8f3db24a24a908ee672d773.bindPopup(popup_96a04981f03349ed810d171a37b6bc17)
+        ;
+
+        
+    
+    
+            marker_1825cc9ed8f3db24a24a908ee672d773.bindTooltip(
+                `<div>
+                     2016-04-26 00:00:00 | Non-APD / multi-agency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1825cc9ed8f3db24a24a908ee672d773.setIcon(icon_394f405801032eb94be7b88667d8aa8f);
+            
+    
+            var marker_5a8daf69e8b04f3aa5e3da4ffc0c42c8 = L.marker(
+                [35.0694603, -106.5096836],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_38f865bd75edcd284d2b0fe54c6abf39 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d1cd4efee05cfea9a334e603cb93c9c5 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_dbcd1a6fdd87d274b93dfa6cf6dc7912 = $(`<div id="html_dbcd1a6fdd87d274b93dfa6cf6dc7912" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2016-05-24<br>     <b>Victim:</b> Mario Montoya<br>     <b>Age:</b> 31.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> shoot<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department; U.S. Marshals Service     </div>`)[0];
+                popup_d1cd4efee05cfea9a334e603cb93c9c5.setContent(html_dbcd1a6fdd87d274b93dfa6cf6dc7912);
+            
+        
+
+        marker_5a8daf69e8b04f3aa5e3da4ffc0c42c8.bindPopup(popup_d1cd4efee05cfea9a334e603cb93c9c5)
+        ;
+
+        
+    
+    
+            marker_5a8daf69e8b04f3aa5e3da4ffc0c42c8.bindTooltip(
+                `<div>
+                     2016-05-24 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5a8daf69e8b04f3aa5e3da4ffc0c42c8.setIcon(icon_38f865bd75edcd284d2b0fe54c6abf39);
+            
+    
+            var marker_29218cbd6dba25542a4ff222d73e562e = L.marker(
+                [35.128322, -106.601025],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_338a3becd83ddea0acb7989c8a9e3ec6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_55e2440e3a8825687404f3307fb043da = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_4beef49de91da494b8977898c715c8a6 = $(`<div id="html_4beef49de91da494b8977898c715c8a6" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2016-05-28<br>     <b>Victim:</b> Dennis Humphrey<br>     <b>Age:</b> 58.0<br>     <b>Race label:</b> White<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> point<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_55e2440e3a8825687404f3307fb043da.setContent(html_4beef49de91da494b8977898c715c8a6);
+            
+        
+
+        marker_29218cbd6dba25542a4ff222d73e562e.bindPopup(popup_55e2440e3a8825687404f3307fb043da)
+        ;
+
+        
+    
+    
+            marker_29218cbd6dba25542a4ff222d73e562e.bindTooltip(
+                `<div>
+                     2016-05-28 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_29218cbd6dba25542a4ff222d73e562e.setIcon(icon_338a3becd83ddea0acb7989c8a9e3ec6);
+            
+    
+            var marker_5aafbd2ee96c58073f1f9d4a7bcaad40 = L.marker(
+                [35.1236886, -106.6040344],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_e1fbe3ec40e95a9cfbec613f331f5b85 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1a5027b388a1d5ee198859af6fb3a1d3 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_2581dda20b5ffac7d2f7c0e60405e5be = $(`<div id="html_2581dda20b5ffac7d2f7c0e60405e5be" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2017-01-07<br>     <b>Victim:</b> Gilbert Zambronio-Lovato<br>     <b>Age:</b> 38.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> replica<br>     <b>Threat type:</b> threat<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_1a5027b388a1d5ee198859af6fb3a1d3.setContent(html_2581dda20b5ffac7d2f7c0e60405e5be);
+            
+        
+
+        marker_5aafbd2ee96c58073f1f9d4a7bcaad40.bindPopup(popup_1a5027b388a1d5ee198859af6fb3a1d3)
+        ;
+
+        
+    
+    
+            marker_5aafbd2ee96c58073f1f9d4a7bcaad40.bindTooltip(
+                `<div>
+                     2017-01-07 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5aafbd2ee96c58073f1f9d4a7bcaad40.setIcon(icon_e1fbe3ec40e95a9cfbec613f331f5b85);
+            
+    
+            var marker_aff4a6f4d6ca8012db04224f6d672000 = L.marker(
+                [35.0525879, -106.7219408],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_4b13fc945ad8467b32fdd46d6174aaad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0a8be3629af6da41faa24ac61fc18132 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_9133aefbb8ca3da7d192892ea1d4e618 = $(`<div id="html_9133aefbb8ca3da7d192892ea1d4e618" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2017-07-04<br>     <b>Victim:</b> Miguel Gonzales<br>     <b>Age:</b> 28.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> undetermined<br>     <b>Flee status:</b> other<br>     <b>APD involved:</b> False<br>     <b>Agencies:</b> Bernalillo County Sheriff&#x27;s Department     </div>`)[0];
+                popup_0a8be3629af6da41faa24ac61fc18132.setContent(html_9133aefbb8ca3da7d192892ea1d4e618);
+            
+        
+
+        marker_aff4a6f4d6ca8012db04224f6d672000.bindPopup(popup_0a8be3629af6da41faa24ac61fc18132)
+        ;
+
+        
+    
+    
+            marker_aff4a6f4d6ca8012db04224f6d672000.bindTooltip(
+                `<div>
+                     2017-07-04 00:00:00 | Non-APD / multi-agency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_aff4a6f4d6ca8012db04224f6d672000.setIcon(icon_4b13fc945ad8467b32fdd46d6174aaad);
+            
+    
+            var marker_2df76028b8889e47d9d63a3f7347c299 = L.marker(
+                [34.9917498, -106.6649591],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_50905db8cbc4e8a7e132e33a5838e596 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bf8dc177d69636fef151bef1f93ea617 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_0f842a81230ea11e1f65b4cf1409b4d9 = $(`<div id="html_0f842a81230ea11e1f65b4cf1409b4d9" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2017-07-28<br>     <b>Victim:</b> Raymond Cruz<br>     <b>Age:</b> 37.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> missing<br>     <b>Threat type:</b> attack<br>     <b>Flee status:</b> car<br>     <b>APD involved:</b> False<br>     <b>Agencies:</b> Bernalillo County Sheriff&#x27;s Department     </div>`)[0];
+                popup_bf8dc177d69636fef151bef1f93ea617.setContent(html_0f842a81230ea11e1f65b4cf1409b4d9);
+            
+        
+
+        marker_2df76028b8889e47d9d63a3f7347c299.bindPopup(popup_bf8dc177d69636fef151bef1f93ea617)
+        ;
+
+        
+    
+    
+            marker_2df76028b8889e47d9d63a3f7347c299.bindTooltip(
+                `<div>
+                     2017-07-28 00:00:00 | Non-APD / multi-agency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2df76028b8889e47d9d63a3f7347c299.setIcon(icon_50905db8cbc4e8a7e132e33a5838e596);
+            
+    
+            var marker_c901e2389443c02a5ced0792d795f354 = L.marker(
+                [35.1092715, -106.6146673],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_70ebcb5b98fe7e4eb0ab4f87a1d932dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_12b2765e76642cf20bb38b5d116976e5 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_3c05961ce474ff1d8a8f4005bc0696ab = $(`<div id="html_3c05961ce474ff1d8a8f4005bc0696ab" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2017-07-31<br>     <b>Victim:</b> Robert Savelli<br>     <b>Age:</b> 43.0<br>     <b>Race label:</b> White<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> point<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_12b2765e76642cf20bb38b5d116976e5.setContent(html_3c05961ce474ff1d8a8f4005bc0696ab);
+            
+        
+
+        marker_c901e2389443c02a5ced0792d795f354.bindPopup(popup_12b2765e76642cf20bb38b5d116976e5)
+        ;
+
+        
+    
+    
+            marker_c901e2389443c02a5ced0792d795f354.bindTooltip(
+                `<div>
+                     2017-07-31 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c901e2389443c02a5ced0792d795f354.setIcon(icon_70ebcb5b98fe7e4eb0ab4f87a1d932dc);
+            
+    
+            var marker_c5b16c16a4bbb5ffbe00cb5453f0d12a = L.marker(
+                [35.2033113, -106.7033371],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_49618f215f0aa52bfa552cbc105f81b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_29f1c18e4a12df62828a6450cc0873b5 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_4129a01b49478b4f0324a27d08287bdf = $(`<div id="html_4129a01b49478b4f0324a27d08287bdf" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2017-08-22<br>     <b>Victim:</b> Henry Rivera Jr.<br>     <b>Age:</b> 71.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> missing<br>     <b>Threat type:</b> attack<br>     <b>Flee status:</b> car<br>     <b>APD involved:</b> False<br>     <b>Agencies:</b> Rio Rancho Police Department     </div>`)[0];
+                popup_29f1c18e4a12df62828a6450cc0873b5.setContent(html_4129a01b49478b4f0324a27d08287bdf);
+            
+        
+
+        marker_c5b16c16a4bbb5ffbe00cb5453f0d12a.bindPopup(popup_29f1c18e4a12df62828a6450cc0873b5)
+        ;
+
+        
+    
+    
+            marker_c5b16c16a4bbb5ffbe00cb5453f0d12a.bindTooltip(
+                `<div>
+                     2017-08-22 00:00:00 | Non-APD / multi-agency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c5b16c16a4bbb5ffbe00cb5453f0d12a.setIcon(icon_49618f215f0aa52bfa552cbc105f81b4);
+            
+    
+            var marker_a79f9641be1368b9f44161b5d3ab5109 = L.marker(
+                [35.1986218, -106.610671],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_4471a481361a518970f6e6a54b6c054f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0cc7bf9becb5c101c933a6995206a244 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_c63e6fe47f251cd32e6f4b65608889cb = $(`<div id="html_c63e6fe47f251cd32e6f4b65608889cb" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2017-11-10<br>     <b>Victim:</b> Matthew Joseph Scudero<br>     <b>Age:</b> 50.0<br>     <b>Race label:</b> White<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> shoot<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> False<br>     <b>Agencies:</b> Bernalillo County Sheriff&#x27;s Department     </div>`)[0];
+                popup_0cc7bf9becb5c101c933a6995206a244.setContent(html_c63e6fe47f251cd32e6f4b65608889cb);
+            
+        
+
+        marker_a79f9641be1368b9f44161b5d3ab5109.bindPopup(popup_0cc7bf9becb5c101c933a6995206a244)
+        ;
+
+        
+    
+    
+            marker_a79f9641be1368b9f44161b5d3ab5109.bindTooltip(
+                `<div>
+                     2017-11-10 00:00:00 | Non-APD / multi-agency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a79f9641be1368b9f44161b5d3ab5109.setIcon(icon_4471a481361a518970f6e6a54b6c054f);
+            
+    
+            var marker_db9cb982bd2313f921d9b4d905078e33 = L.marker(
+                [35.0973532, -106.7084002],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_9da74880f364390be02f083f12b33b68 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_834704c8e6f71f30047fa04af2df8249 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_d0286d0830bc860fcb2d46d9751437ab = $(`<div id="html_d0286d0830bc860fcb2d46d9751437ab" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2017-11-17<br>     <b>Victim:</b> Martin Jim<br>     <b>Age:</b> 25.0<br>     <b>Race label:</b> White<br>     <b>Armed with:</b> unarmed<br>     <b>Threat type:</b> accident<br>     <b>Flee status:</b> car<br>     <b>APD involved:</b> False<br>     <b>Agencies:</b> Bernalillo County Sheriff&#x27;s Department     </div>`)[0];
+                popup_834704c8e6f71f30047fa04af2df8249.setContent(html_d0286d0830bc860fcb2d46d9751437ab);
+            
+        
+
+        marker_db9cb982bd2313f921d9b4d905078e33.bindPopup(popup_834704c8e6f71f30047fa04af2df8249)
+        ;
+
+        
+    
+    
+            marker_db9cb982bd2313f921d9b4d905078e33.bindTooltip(
+                `<div>
+                     2017-11-17 00:00:00 | Non-APD / multi-agency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_db9cb982bd2313f921d9b4d905078e33.setIcon(icon_9da74880f364390be02f083f12b33b68);
+            
+    
+            var marker_63b0988b547dd11d4a8c5d4b0a6f78c9 = L.marker(
+                [35.0973532, -106.7084002],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_98eae9cde244e7efad7698f76a2040d6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5abaaa6e55540e3042efdd67ec530f50 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_92db645a1f89151b22a8160163407eef = $(`<div id="html_92db645a1f89151b22a8160163407eef" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2017-11-17<br>     <b>Victim:</b> Isaac Padilla<br>     <b>Age:</b> 23.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> unarmed<br>     <b>Threat type:</b> flee<br>     <b>Flee status:</b> car<br>     <b>APD involved:</b> False<br>     <b>Agencies:</b> Bernalillo County Sheriff&#x27;s Department     </div>`)[0];
+                popup_5abaaa6e55540e3042efdd67ec530f50.setContent(html_92db645a1f89151b22a8160163407eef);
+            
+        
+
+        marker_63b0988b547dd11d4a8c5d4b0a6f78c9.bindPopup(popup_5abaaa6e55540e3042efdd67ec530f50)
+        ;
+
+        
+    
+    
+            marker_63b0988b547dd11d4a8c5d4b0a6f78c9.bindTooltip(
+                `<div>
+                     2017-11-17 00:00:00 | Non-APD / multi-agency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_63b0988b547dd11d4a8c5d4b0a6f78c9.setIcon(icon_98eae9cde244e7efad7698f76a2040d6);
+            
+    
+            var marker_f03cad1c4a48520c5dc947bfb9ad80eb = L.marker(
+                [35.0780365, -106.5453162],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_87e0ec2a13143e24dbf9f7fb2bfe1f50 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dce1e0eb2664c54cd9576223d54bc893 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_32b3c3d00ef48c8a412c651fc7732440 = $(`<div id="html_32b3c3d00ef48c8a412c651fc7732440" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2018-01-06<br>     <b>Victim:</b> Daniel Saavedra-Arreola<br>     <b>Age:</b> 24.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> knife;blunt_object<br>     <b>Threat type:</b> threat<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_dce1e0eb2664c54cd9576223d54bc893.setContent(html_32b3c3d00ef48c8a412c651fc7732440);
+            
+        
+
+        marker_f03cad1c4a48520c5dc947bfb9ad80eb.bindPopup(popup_dce1e0eb2664c54cd9576223d54bc893)
+        ;
+
+        
+    
+    
+            marker_f03cad1c4a48520c5dc947bfb9ad80eb.bindTooltip(
+                `<div>
+                     2018-01-06 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f03cad1c4a48520c5dc947bfb9ad80eb.setIcon(icon_87e0ec2a13143e24dbf9f7fb2bfe1f50);
+            
+    
+            var marker_9b0a25a3bb529ff3a0c5be28f2d4b39c = L.marker(
+                [35.069122, -106.638414],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_8ca3f11025ffdff165d6444c52e506a2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b94dc398fb63c8847752993dfe6a87a1 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_bd2d9937754172d217db795abeeb58ee = $(`<div id="html_bd2d9937754172d217db795abeeb58ee" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2018-06-07<br>     <b>Victim:</b> Wes Allen<br>     <b>Age:</b> 33.0<br>     <b>Race label:</b> White<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> shoot<br>     <b>Flee status:</b> car<br>     <b>APD involved:</b> False<br>     <b>Agencies:</b> U.S. Marshals Service     </div>`)[0];
+                popup_b94dc398fb63c8847752993dfe6a87a1.setContent(html_bd2d9937754172d217db795abeeb58ee);
+            
+        
+
+        marker_9b0a25a3bb529ff3a0c5be28f2d4b39c.bindPopup(popup_b94dc398fb63c8847752993dfe6a87a1)
+        ;
+
+        
+    
+    
+            marker_9b0a25a3bb529ff3a0c5be28f2d4b39c.bindTooltip(
+                `<div>
+                     2018-06-07 00:00:00 | Non-APD / multi-agency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9b0a25a3bb529ff3a0c5be28f2d4b39c.setIcon(icon_8ca3f11025ffdff165d6444c52e506a2);
+            
+    
+            var marker_fab7f06ca514274490ca4ae3985fde2d = L.marker(
+                [35.0750602, -106.6220968],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_4967c368062e3bbd150df75290a57a64 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_52b9e286ff75d8a8464e99ca51bfa3a7 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_f5f6bee8ff9ace5c5b4ed8e98e6cd4ed = $(`<div id="html_f5f6bee8ff9ace5c5b4ed8e98e6cd4ed" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2018-06-16<br>     <b>Victim:</b> Richard Rivera<br>     <b>Age:</b> 47.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> unarmed<br>     <b>Threat type:</b> missing<br>     <b>Flee status:</b> car<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_52b9e286ff75d8a8464e99ca51bfa3a7.setContent(html_f5f6bee8ff9ace5c5b4ed8e98e6cd4ed);
+            
+        
+
+        marker_fab7f06ca514274490ca4ae3985fde2d.bindPopup(popup_52b9e286ff75d8a8464e99ca51bfa3a7)
+        ;
+
+        
+    
+    
+            marker_fab7f06ca514274490ca4ae3985fde2d.bindTooltip(
+                `<div>
+                     2018-06-16 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fab7f06ca514274490ca4ae3985fde2d.setIcon(icon_4967c368062e3bbd150df75290a57a64);
+            
+    
+            var marker_b562a7a513a85804d5fabbb027faea2a = L.marker(
+                [35.0697377, -106.6392485],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_2c3f5067bac73bd1e81745f6451a14f5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_224bb7d6c6aaa463f7b3a599f6a78e1e = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_4f94b3480041e06fea30cbdcbe253fea = $(`<div id="html_4f94b3480041e06fea30cbdcbe253fea" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2018-07-15<br>     <b>Victim:</b> Jonathan Molina<br>     <b>Age:</b> 23.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> attack<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> False<br>     <b>Agencies:</b> New Mexico State Police     </div>`)[0];
+                popup_224bb7d6c6aaa463f7b3a599f6a78e1e.setContent(html_4f94b3480041e06fea30cbdcbe253fea);
+            
+        
+
+        marker_b562a7a513a85804d5fabbb027faea2a.bindPopup(popup_224bb7d6c6aaa463f7b3a599f6a78e1e)
+        ;
+
+        
+    
+    
+            marker_b562a7a513a85804d5fabbb027faea2a.bindTooltip(
+                `<div>
+                     2018-07-15 00:00:00 | Non-APD / multi-agency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b562a7a513a85804d5fabbb027faea2a.setIcon(icon_2c3f5067bac73bd1e81745f6451a14f5);
+            
+    
+            var marker_dfc115c76708ba0485075017b8f273c6 = L.marker(
+                [35.13053, -106.7160321],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_a4eb0ca1b732da3d30e7de5f2c01f66b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9420de2e60fddc60d0f71cb6a5fb5010 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_9ae23194df95bb59e0a8d931dfc5cda5 = $(`<div id="html_9ae23194df95bb59e0a8d931dfc5cda5" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2018-07-18<br>     <b>Victim:</b> Arthur Lujan<br>     <b>Age:</b> 30.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> shoot<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department; New Mexico State Police     </div>`)[0];
+                popup_9420de2e60fddc60d0f71cb6a5fb5010.setContent(html_9ae23194df95bb59e0a8d931dfc5cda5);
+            
+        
+
+        marker_dfc115c76708ba0485075017b8f273c6.bindPopup(popup_9420de2e60fddc60d0f71cb6a5fb5010)
+        ;
+
+        
+    
+    
+            marker_dfc115c76708ba0485075017b8f273c6.bindTooltip(
+                `<div>
+                     2018-07-18 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dfc115c76708ba0485075017b8f273c6.setIcon(icon_a4eb0ca1b732da3d30e7de5f2c01f66b);
+            
+    
+            var marker_cf0ac283a81fc40acd87e6c427179741 = L.marker(
+                [35.0582642, -106.5687495],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_bf7cbf276b74008237ee7ca947bac72a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d2e157b6e18c3f94c0aa458e02567298 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_055a0b582764bd33682a2c88cee47ce0 = $(`<div id="html_055a0b582764bd33682a2c88cee47ce0" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2018-11-04<br>     <b>Victim:</b> Anthony David Chavez<br>     <b>Age:</b> 18.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> threat<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_d2e157b6e18c3f94c0aa458e02567298.setContent(html_055a0b582764bd33682a2c88cee47ce0);
+            
+        
+
+        marker_cf0ac283a81fc40acd87e6c427179741.bindPopup(popup_d2e157b6e18c3f94c0aa458e02567298)
+        ;
+
+        
+    
+    
+            marker_cf0ac283a81fc40acd87e6c427179741.bindTooltip(
+                `<div>
+                     2018-11-04 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cf0ac283a81fc40acd87e6c427179741.setIcon(icon_bf7cbf276b74008237ee7ca947bac72a);
+            
+    
+            var marker_b4a5ef2dc105cc0f8224a44150871f38 = L.marker(
+                [35.1232742, -106.5865515],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_cc82afb6a04e11418d5725e30283697e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5b18d9ab8bb957cf0c6771aa054b0bc4 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_900f259c8091a3a55bd600f2799e21df = $(`<div id="html_900f259c8091a3a55bd600f2799e21df" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2018-12-12<br>     <b>Victim:</b> Gabriel Romero<br>     <b>Age:</b> 19.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> shoot<br>     <b>Flee status:</b> foot<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_5b18d9ab8bb957cf0c6771aa054b0bc4.setContent(html_900f259c8091a3a55bd600f2799e21df);
+            
+        
+
+        marker_b4a5ef2dc105cc0f8224a44150871f38.bindPopup(popup_5b18d9ab8bb957cf0c6771aa054b0bc4)
+        ;
+
+        
+    
+    
+            marker_b4a5ef2dc105cc0f8224a44150871f38.bindTooltip(
+                `<div>
+                     2018-12-12 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b4a5ef2dc105cc0f8224a44150871f38.setIcon(icon_cc82afb6a04e11418d5725e30283697e);
+            
+    
+            var marker_ff708d33b17e1058305907c900f7c688 = L.marker(
+                [35.0800687, -106.5591354],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_248a39b9af8a1623f967df09199e4362 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_994ffa55efd38db035b889197e7e1c2e = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_2887bcf3d45a527f45f0414c1f236075 = $(`<div id="html_2887bcf3d45a527f45f0414c1f236075" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2018-12-23<br>     <b>Victim:</b> Jason Delgado Perez<br>     <b>Age:</b> 36.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> shoot<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_994ffa55efd38db035b889197e7e1c2e.setContent(html_2887bcf3d45a527f45f0414c1f236075);
+            
+        
+
+        marker_ff708d33b17e1058305907c900f7c688.bindPopup(popup_994ffa55efd38db035b889197e7e1c2e)
+        ;
+
+        
+    
+    
+            marker_ff708d33b17e1058305907c900f7c688.bindTooltip(
+                `<div>
+                     2018-12-23 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ff708d33b17e1058305907c900f7c688.setIcon(icon_248a39b9af8a1623f967df09199e4362);
+            
+    
+            var marker_cb95f00c05187fb3b6f3526f21e23713 = L.marker(
+                [35.106927, -106.606178],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_d5e5d7427f24958005f38842425457f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2be22ee4f67b0fe35c9f1dbdd219cc3b = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_fbb77b7f61a780785c70060484f126b4 = $(`<div id="html_fbb77b7f61a780785c70060484f126b4" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2018-12-24<br>     <b>Victim:</b> Abdias Flores<br>     <b>Age:</b> 35.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> shoot<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_2be22ee4f67b0fe35c9f1dbdd219cc3b.setContent(html_fbb77b7f61a780785c70060484f126b4);
+            
+        
+
+        marker_cb95f00c05187fb3b6f3526f21e23713.bindPopup(popup_2be22ee4f67b0fe35c9f1dbdd219cc3b)
+        ;
+
+        
+    
+    
+            marker_cb95f00c05187fb3b6f3526f21e23713.bindTooltip(
+                `<div>
+                     2018-12-24 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cb95f00c05187fb3b6f3526f21e23713.setIcon(icon_d5e5d7427f24958005f38842425457f9);
+            
+    
+            var marker_1a50dee0d3f17b0c6199907edd7ba72b = L.marker(
+                [35.0738245, -106.5503127],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_6b408c3ad606fe0a20c1148cede478c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d34e8b1c11489dc9927a0c6240271cb7 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_225dbbff3f89af3769fa0443cbaddd48 = $(`<div id="html_225dbbff3f89af3769fa0443cbaddd48" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2019-07-02<br>     <b>Victim:</b> Casiano Coronel<br>     <b>Age:</b> 21.0<br>     <b>Race label:</b> Unknown<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> shoot<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_d34e8b1c11489dc9927a0c6240271cb7.setContent(html_225dbbff3f89af3769fa0443cbaddd48);
+            
+        
+
+        marker_1a50dee0d3f17b0c6199907edd7ba72b.bindPopup(popup_d34e8b1c11489dc9927a0c6240271cb7)
+        ;
+
+        
+    
+    
+            marker_1a50dee0d3f17b0c6199907edd7ba72b.bindTooltip(
+                `<div>
+                     2019-07-02 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1a50dee0d3f17b0c6199907edd7ba72b.setIcon(icon_6b408c3ad606fe0a20c1148cede478c2);
+            
+    
+            var marker_8a52da78254b657e14ed68d675a9e136 = L.marker(
+                [35.0270934, -106.6582166],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_8f736707d2ec80308f53ff13a0ac412d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5cc9c56e979a56e7a91fad0fd443a611 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_7fc11963c18f3a95ba4c62928d460538 = $(`<div id="html_7fc11963c18f3a95ba4c62928d460538" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2019-07-21<br>     <b>Victim:</b> Elisha Lucero<br>     <b>Age:</b> 28.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> knife<br>     <b>Threat type:</b> move<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> False<br>     <b>Agencies:</b> Bernalillo County Sheriff&#x27;s Department     </div>`)[0];
+                popup_5cc9c56e979a56e7a91fad0fd443a611.setContent(html_7fc11963c18f3a95ba4c62928d460538);
+            
+        
+
+        marker_8a52da78254b657e14ed68d675a9e136.bindPopup(popup_5cc9c56e979a56e7a91fad0fd443a611)
+        ;
+
+        
+    
+    
+            marker_8a52da78254b657e14ed68d675a9e136.bindTooltip(
+                `<div>
+                     2019-07-21 00:00:00 | Non-APD / multi-agency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8a52da78254b657e14ed68d675a9e136.setIcon(icon_8f736707d2ec80308f53ff13a0ac412d);
+            
+    
+            var marker_f65036680008c39e140a15b183be9e3b = L.marker(
+                [35.0793991, -106.5293862],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_cb12801449ede1fe278a57aa0f2ed1f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c2cd36e44bf33b7590bc17dca95530cf = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_e2c3aeb4de6bf77681106bb89d613cd4 = $(`<div id="html_e2c3aeb4de6bf77681106bb89d613cd4" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2019-08-22<br>     <b>Victim:</b> Roger Schafer<br>     <b>Age:</b> 57.0<br>     <b>Race label:</b> White<br>     <b>Armed with:</b> replica<br>     <b>Threat type:</b> point<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_c2cd36e44bf33b7590bc17dca95530cf.setContent(html_e2c3aeb4de6bf77681106bb89d613cd4);
+            
+        
+
+        marker_f65036680008c39e140a15b183be9e3b.bindPopup(popup_c2cd36e44bf33b7590bc17dca95530cf)
+        ;
+
+        
+    
+    
+            marker_f65036680008c39e140a15b183be9e3b.bindTooltip(
+                `<div>
+                     2019-08-22 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f65036680008c39e140a15b183be9e3b.setIcon(icon_cb12801449ede1fe278a57aa0f2ed1f4);
+            
+    
+            var marker_d329e4f0ad2d08ee618a02e74610c4af = L.marker(
+                [35.0801986, -106.5566807],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_473272800eabfd78b8e1b6f5535d3a38 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bbc8642659ad7229a01509d7774d4d66 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_ec9b9afdecac920d6c4ae58268df3b18 = $(`<div id="html_ec9b9afdecac920d6c4ae58268df3b18" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2019-10-14<br>     <b>Victim:</b> Daniel James Wood Jr.<br>     <b>Age:</b> 29.0<br>     <b>Race label:</b> Unknown<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> point<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_bbc8642659ad7229a01509d7774d4d66.setContent(html_ec9b9afdecac920d6c4ae58268df3b18);
+            
+        
+
+        marker_d329e4f0ad2d08ee618a02e74610c4af.bindPopup(popup_bbc8642659ad7229a01509d7774d4d66)
+        ;
+
+        
+    
+    
+            marker_d329e4f0ad2d08ee618a02e74610c4af.bindTooltip(
+                `<div>
+                     2019-10-14 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d329e4f0ad2d08ee618a02e74610c4af.setIcon(icon_473272800eabfd78b8e1b6f5535d3a38);
+            
+    
+            var marker_c921a7117c3dc8c651b7d5b55891b4ce = L.marker(
+                [35.1091797, -106.604248],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_a74004dc0069245a1fbac5169a5aad07 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_97819f3702842c702f0141bf6276c19c = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_4a7633796e7032f08f6de1707b194f4a = $(`<div id="html_4a7633796e7032f08f6de1707b194f4a" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2019-10-25<br>     <b>Victim:</b> Raymond V. Tahod<br>     <b>Age:</b> 27.0<br>     <b>Race label:</b> Unknown<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> threat<br>     <b>Flee status:</b> car<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_97819f3702842c702f0141bf6276c19c.setContent(html_4a7633796e7032f08f6de1707b194f4a);
+            
+        
+
+        marker_c921a7117c3dc8c651b7d5b55891b4ce.bindPopup(popup_97819f3702842c702f0141bf6276c19c)
+        ;
+
+        
+    
+    
+            marker_c921a7117c3dc8c651b7d5b55891b4ce.bindTooltip(
+                `<div>
+                     2019-10-25 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c921a7117c3dc8c651b7d5b55891b4ce.setIcon(icon_a74004dc0069245a1fbac5169a5aad07);
+            
+    
+            var marker_411e5f79f09718f588c736a32ed1a2a7 = L.marker(
+                [35.0754518, -106.5652647],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_d91487d6cc0153ae64de8df3a3e24947 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_01c750bf4529cd26fc7a6ed65f2093f3 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_6a65f0b265eaa27924a3aeb5f5267c9f = $(`<div id="html_6a65f0b265eaa27924a3aeb5f5267c9f" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2020-01-06<br>     <b>Victim:</b> Orlando Abeyta<br>     <b>Age:</b> 28.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> move<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_01c750bf4529cd26fc7a6ed65f2093f3.setContent(html_6a65f0b265eaa27924a3aeb5f5267c9f);
+            
+        
+
+        marker_411e5f79f09718f588c736a32ed1a2a7.bindPopup(popup_01c750bf4529cd26fc7a6ed65f2093f3)
+        ;
+
+        
+    
+    
+            marker_411e5f79f09718f588c736a32ed1a2a7.bindTooltip(
+                `<div>
+                     2020-01-06 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_411e5f79f09718f588c736a32ed1a2a7.setIcon(icon_d91487d6cc0153ae64de8df3a3e24947);
+            
+    
+            var marker_796524ca2451bb4290a18ffc8c730f53 = L.marker(
+                [35.0746008, -106.6432443],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_8eb6f6047244003c262cc15e01e5a26d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9993dc0f8b77bd5c2aab4bd54c20ddff = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_50cd3e780a6be958583c72d4430d5b41 = $(`<div id="html_50cd3e780a6be958583c72d4430d5b41" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2020-03-31<br>     <b>Victim:</b> Valente Acosta-Bustillos<br>     <b>Age:</b> 52.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> blunt_object<br>     <b>Threat type:</b> threat<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_9993dc0f8b77bd5c2aab4bd54c20ddff.setContent(html_50cd3e780a6be958583c72d4430d5b41);
+            
+        
+
+        marker_796524ca2451bb4290a18ffc8c730f53.bindPopup(popup_9993dc0f8b77bd5c2aab4bd54c20ddff)
+        ;
+
+        
+    
+    
+            marker_796524ca2451bb4290a18ffc8c730f53.bindTooltip(
+                `<div>
+                     2020-03-31 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_796524ca2451bb4290a18ffc8c730f53.setIcon(icon_8eb6f6047244003c262cc15e01e5a26d);
+            
+    
+            var marker_07bc73b9b80bc45cbe59226e9a7d079f = L.marker(
+                [35.1590705, -106.692226],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_302f515362cb34fc6e8d413f3eacd42c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_254f4029d5b3cc12905085160ff29057 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_de327f1da637ede3eb8c69f88456611e = $(`<div id="html_de327f1da637ede3eb8c69f88456611e" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2020-08-10<br>     <b>Victim:</b> Jose Vallejos<br>     <b>Age:</b> 48.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> point<br>     <b>Flee status:</b> missing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_254f4029d5b3cc12905085160ff29057.setContent(html_de327f1da637ede3eb8c69f88456611e);
+            
+        
+
+        marker_07bc73b9b80bc45cbe59226e9a7d079f.bindPopup(popup_254f4029d5b3cc12905085160ff29057)
+        ;
+
+        
+    
+    
+            marker_07bc73b9b80bc45cbe59226e9a7d079f.bindTooltip(
+                `<div>
+                     2020-08-10 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_07bc73b9b80bc45cbe59226e9a7d079f.setIcon(icon_302f515362cb34fc6e8d413f3eacd42c);
+            
+    
+            var marker_9c2d68d746380f0fd0517e6d2203214f = L.marker(
+                [35.073659, -106.6145679],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_5813f058541dbf177740b0f808fbd99e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_16230ab9ae8c5c29b5dd227516773011 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_b661d62634f32d5b1f52b14521ca0945 = $(`<div id="html_b661d62634f32d5b1f52b14521ca0945" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2020-08-10<br>     <b>Victim:</b> Kenneth Reiss<br>     <b>Age:</b> 50.0<br>     <b>Race label:</b> White<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> shoot<br>     <b>Flee status:</b> foot<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_16230ab9ae8c5c29b5dd227516773011.setContent(html_b661d62634f32d5b1f52b14521ca0945);
+            
+        
+
+        marker_9c2d68d746380f0fd0517e6d2203214f.bindPopup(popup_16230ab9ae8c5c29b5dd227516773011)
+        ;
+
+        
+    
+    
+            marker_9c2d68d746380f0fd0517e6d2203214f.bindTooltip(
+                `<div>
+                     2020-08-10 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9c2d68d746380f0fd0517e6d2203214f.setIcon(icon_5813f058541dbf177740b0f808fbd99e);
+            
+    
+            var marker_8c908f36577a55fae33dcfdf3cf42a4f = L.marker(
+                [35.1845, -106.5704343],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_ed809048e02fcc9a67aa9df5578d5230 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_022c853428c96ef9dec15f1905c676cd = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_dff1c9956850db578558d7ec74654394 = $(`<div id="html_dff1c9956850db578558d7ec74654394" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2020-08-24<br>     <b>Victim:</b> David Sanchez<br>     <b>Age:</b> nan<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> shoot<br>     <b>Flee status:</b> missing<br>     <b>APD involved:</b> False<br>     <b>Agencies:</b> Bernalillo County Sheriff&#x27;s Department     </div>`)[0];
+                popup_022c853428c96ef9dec15f1905c676cd.setContent(html_dff1c9956850db578558d7ec74654394);
+            
+        
+
+        marker_8c908f36577a55fae33dcfdf3cf42a4f.bindPopup(popup_022c853428c96ef9dec15f1905c676cd)
+        ;
+
+        
+    
+    
+            marker_8c908f36577a55fae33dcfdf3cf42a4f.bindTooltip(
+                `<div>
+                     2020-08-24 00:00:00 | Non-APD / multi-agency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8c908f36577a55fae33dcfdf3cf42a4f.setIcon(icon_ed809048e02fcc9a67aa9df5578d5230);
+            
+    
+            var marker_fee46abbc03dba7a96887aee9cfe3e0b = L.marker(
+                [35.0918743, -106.5770471],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_a8a4aa64a5242103abb869402a2f7450 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b60000c38a94ac1331ad194c2f2ae764 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_06413790fca2eef871014d452d80ff8c = $(`<div id="html_06413790fca2eef871014d452d80ff8c" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2020-10-12<br>     <b>Victim:</b> Matthew Montoya<br>     <b>Age:</b> 52.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> threat<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_b60000c38a94ac1331ad194c2f2ae764.setContent(html_06413790fca2eef871014d452d80ff8c);
+            
+        
+
+        marker_fee46abbc03dba7a96887aee9cfe3e0b.bindPopup(popup_b60000c38a94ac1331ad194c2f2ae764)
+        ;
+
+        
+    
+    
+            marker_fee46abbc03dba7a96887aee9cfe3e0b.bindTooltip(
+                `<div>
+                     2020-10-12 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fee46abbc03dba7a96887aee9cfe3e0b.setIcon(icon_a8a4aa64a5242103abb869402a2f7450);
+            
+    
+            var marker_ae1e9eb48b13df68173cb3aa90b8259a = L.marker(
+                [35.0661986, -106.691803],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_37aec788639db304af79debf15843e26 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_60ebe6acebce18c8ae6ddf13ae873207 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_3195db20476f39d65fad96bd8ba87066 = $(`<div id="html_3195db20476f39d65fad96bd8ba87066" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2021-01-31<br>     <b>Victim:</b> Ezekiel Meza<br>     <b>Age:</b> 41.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> shoot<br>     <b>Flee status:</b> foot<br>     <b>APD involved:</b> False<br>     <b>Agencies:</b> Bernalillo County Sheriff&#x27;s Department     </div>`)[0];
+                popup_60ebe6acebce18c8ae6ddf13ae873207.setContent(html_3195db20476f39d65fad96bd8ba87066);
+            
+        
+
+        marker_ae1e9eb48b13df68173cb3aa90b8259a.bindPopup(popup_60ebe6acebce18c8ae6ddf13ae873207)
+        ;
+
+        
+    
+    
+            marker_ae1e9eb48b13df68173cb3aa90b8259a.bindTooltip(
+                `<div>
+                     2021-01-31 00:00:00 | Non-APD / multi-agency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ae1e9eb48b13df68173cb3aa90b8259a.setIcon(icon_37aec788639db304af79debf15843e26);
+            
+    
+            var marker_3193acef1c0d037b0f09785de0ce225d = L.marker(
+                [35.0807376, -106.5861027],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_0fdd3d384954341d0f09fa8ab242880d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_82a487c5928a43a22c04edd9629fcc1d = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_adf7b80e32bfae0b03ab33cde3457d75 = $(`<div id="html_adf7b80e32bfae0b03ab33cde3457d75" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2021-02-20<br>     <b>Victim:</b> Claude Trivino<br>     <b>Age:</b> 40.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> knife<br>     <b>Threat type:</b> attack<br>     <b>Flee status:</b> foot<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_82a487c5928a43a22c04edd9629fcc1d.setContent(html_adf7b80e32bfae0b03ab33cde3457d75);
+            
+        
+
+        marker_3193acef1c0d037b0f09785de0ce225d.bindPopup(popup_82a487c5928a43a22c04edd9629fcc1d)
+        ;
+
+        
+    
+    
+            marker_3193acef1c0d037b0f09785de0ce225d.bindTooltip(
+                `<div>
+                     2021-02-20 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3193acef1c0d037b0f09785de0ce225d.setIcon(icon_0fdd3d384954341d0f09fa8ab242880d);
+            
+    
+            var marker_20ecdfd37d8595b4c30590152c8ca5af = L.marker(
+                [35.1052481, -106.5502924],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_4d542d55defbec76aedeefda03f87565 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fbd5c39d8388010379001ca42e02db6b = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_2bcc2f3d5d25fd2fd5168ef665da61f3 = $(`<div id="html_2bcc2f3d5d25fd2fd5168ef665da61f3" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2021-08-15<br>     <b>Victim:</b> Eric Padilla<br>     <b>Age:</b> 33.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> point<br>     <b>Flee status:</b> foot<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_fbd5c39d8388010379001ca42e02db6b.setContent(html_2bcc2f3d5d25fd2fd5168ef665da61f3);
+            
+        
+
+        marker_20ecdfd37d8595b4c30590152c8ca5af.bindPopup(popup_fbd5c39d8388010379001ca42e02db6b)
+        ;
+
+        
+    
+    
+            marker_20ecdfd37d8595b4c30590152c8ca5af.bindTooltip(
+                `<div>
+                     2021-08-15 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_20ecdfd37d8595b4c30590152c8ca5af.setIcon(icon_4d542d55defbec76aedeefda03f87565);
+            
+    
+            var marker_5ae5eeffde9dd41ca80177166c9ddb8c = L.marker(
+                [35.1326283469605, -106.6298974783428],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_1114557b80243850a69d11b7f3a65a6f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b66ddb065093277d327d5bf81f06b6b0 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_ccd5380253d96da12a35119cd942c6d5 = $(`<div id="html_ccd5380253d96da12a35119cd942c6d5" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2021-11-26<br>     <b>Victim:</b> Elijah Jacob Riche<br>     <b>Age:</b> 18.0<br>     <b>Race label:</b> White; Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> threat<br>     <b>Flee status:</b> missing<br>     <b>APD involved:</b> False<br>     <b>Agencies:</b> Bernalillo County Sheriff&#x27;s Department     </div>`)[0];
+                popup_b66ddb065093277d327d5bf81f06b6b0.setContent(html_ccd5380253d96da12a35119cd942c6d5);
+            
+        
+
+        marker_5ae5eeffde9dd41ca80177166c9ddb8c.bindPopup(popup_b66ddb065093277d327d5bf81f06b6b0)
+        ;
+
+        
+    
+    
+            marker_5ae5eeffde9dd41ca80177166c9ddb8c.bindTooltip(
+                `<div>
+                     2021-11-26 00:00:00 | Non-APD / multi-agency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5ae5eeffde9dd41ca80177166c9ddb8c.setIcon(icon_1114557b80243850a69d11b7f3a65a6f);
+            
+    
+            var marker_b5fae0e687029b86cdb43cd6e45925a7 = L.marker(
+                [35.130773076546525, -106.49282963642378],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_696f570947811949e4ed7db9d7acd953 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3dca6d2deba886df8e15dd5c342045fd = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_231d0463578a0305cccf113352553654 = $(`<div id="html_231d0463578a0305cccf113352553654" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2022-03-14<br>     <b>Victim:</b> John Dawson Hunter<br>     <b>Age:</b> 52.0<br>     <b>Race label:</b> White<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> shoot<br>     <b>Flee status:</b> missing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_3dca6d2deba886df8e15dd5c342045fd.setContent(html_231d0463578a0305cccf113352553654);
+            
+        
+
+        marker_b5fae0e687029b86cdb43cd6e45925a7.bindPopup(popup_3dca6d2deba886df8e15dd5c342045fd)
+        ;
+
+        
+    
+    
+            marker_b5fae0e687029b86cdb43cd6e45925a7.bindTooltip(
+                `<div>
+                     2022-03-14 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b5fae0e687029b86cdb43cd6e45925a7.setIcon(icon_696f570947811949e4ed7db9d7acd953);
+            
+    
+            var marker_9d7ea7fe159cba1df1eeb8fcbff8ee84 = L.marker(
+                [35.0681039, -106.4977328],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_d5b424d361e4cb9633cf267fef27c3e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8b4c1181a0319652837c486348187f4a = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_45fb7738e94c1137528ca85c83650f31 = $(`<div id="html_45fb7738e94c1137528ca85c83650f31" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2022-03-19<br>     <b>Victim:</b> Collin Neztsosie<br>     <b>Age:</b> 33.0<br>     <b>Race label:</b> Native American<br>     <b>Armed with:</b> unarmed<br>     <b>Threat type:</b> move<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_8b4c1181a0319652837c486348187f4a.setContent(html_45fb7738e94c1137528ca85c83650f31);
+            
+        
+
+        marker_9d7ea7fe159cba1df1eeb8fcbff8ee84.bindPopup(popup_8b4c1181a0319652837c486348187f4a)
+        ;
+
+        
+    
+    
+            marker_9d7ea7fe159cba1df1eeb8fcbff8ee84.bindTooltip(
+                `<div>
+                     2022-03-19 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9d7ea7fe159cba1df1eeb8fcbff8ee84.setIcon(icon_d5b424d361e4cb9633cf267fef27c3e6);
+            
+    
+            var marker_0268efe6efa70a2c5354e80c4363ebc8 = L.marker(
+                [35.0511881, -106.6702788],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_4a6b9336a8c38a7c9a1c3a706dbed9ef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0498cb5f12e5129922ee99cfda7510c7 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_78138fbafed69718bda1d298b94a65a5 = $(`<div id="html_78138fbafed69718bda1d298b94a65a5" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2022-04-01<br>     <b>Victim:</b> Taylor John Crabb<br>     <b>Age:</b> 37.0<br>     <b>Race label:</b> White<br>     <b>Armed with:</b> gun;vehicle<br>     <b>Threat type:</b> shoot<br>     <b>Flee status:</b> car<br>     <b>APD involved:</b> False<br>     <b>Agencies:</b> Bernalillo County Sheriff&#x27;s Department     </div>`)[0];
+                popup_0498cb5f12e5129922ee99cfda7510c7.setContent(html_78138fbafed69718bda1d298b94a65a5);
+            
+        
+
+        marker_0268efe6efa70a2c5354e80c4363ebc8.bindPopup(popup_0498cb5f12e5129922ee99cfda7510c7)
+        ;
+
+        
+    
+    
+            marker_0268efe6efa70a2c5354e80c4363ebc8.bindTooltip(
+                `<div>
+                     2022-04-01 00:00:00 | Non-APD / multi-agency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0268efe6efa70a2c5354e80c4363ebc8.setIcon(icon_4a6b9336a8c38a7c9a1c3a706dbed9ef);
+            
+    
+            var marker_b1cacbbc34c7047ce1171cf9ad43f01c = L.marker(
+                [35.1388696, -106.5334574],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_ba83b36b782fb55c773f51c357cb805b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b4364f058cf43a9a1d91650f3e4b7229 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_66d14d6a6406928bd7fcbd2fef3bc299 = $(`<div id="html_66d14d6a6406928bd7fcbd2fef3bc299" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2022-04-06<br>     <b>Victim:</b> John A. Withers<br>     <b>Age:</b> 20.0<br>     <b>Race label:</b> Unknown<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> shoot<br>     <b>Flee status:</b> foot<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_b4364f058cf43a9a1d91650f3e4b7229.setContent(html_66d14d6a6406928bd7fcbd2fef3bc299);
+            
+        
+
+        marker_b1cacbbc34c7047ce1171cf9ad43f01c.bindPopup(popup_b4364f058cf43a9a1d91650f3e4b7229)
+        ;
+
+        
+    
+    
+            marker_b1cacbbc34c7047ce1171cf9ad43f01c.bindTooltip(
+                `<div>
+                     2022-04-06 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b1cacbbc34c7047ce1171cf9ad43f01c.setIcon(icon_ba83b36b782fb55c773f51c357cb805b);
+            
+    
+            var marker_f62618bc4838f8838d00713e69131f6f = L.marker(
+                [35.0849929, -106.6493478],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_56bb0982f45c3d8d7875b2c7ebf555df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a521dd4d42d96444948b1a74cbecf73c = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_a9de26bc2dfe74583e1269c8119f6e19 = $(`<div id="html_a9de26bc2dfe74583e1269c8119f6e19" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2022-06-19<br>     <b>Victim:</b> Frank Baty<br>     <b>Age:</b> 58.0<br>     <b>Race label:</b> Black<br>     <b>Armed with:</b> replica<br>     <b>Threat type:</b> threat<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_a521dd4d42d96444948b1a74cbecf73c.setContent(html_a9de26bc2dfe74583e1269c8119f6e19);
+            
+        
+
+        marker_f62618bc4838f8838d00713e69131f6f.bindPopup(popup_a521dd4d42d96444948b1a74cbecf73c)
+        ;
+
+        
+    
+    
+            marker_f62618bc4838f8838d00713e69131f6f.bindTooltip(
+                `<div>
+                     2022-06-19 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f62618bc4838f8838d00713e69131f6f.setIcon(icon_56bb0982f45c3d8d7875b2c7ebf555df);
+            
+    
+            var marker_a6ffc99d64ca9b0794ec94c4fcf655c5 = L.marker(
+                [35.1149857, -106.7022261],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_c5ccad1ba128a68be624a4d4f3950d22 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e25fb42e9b6c9dc23e47191f3dc5b922 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_890c3283c297d697710ed36e1ea5ebeb = $(`<div id="html_890c3283c297d697710ed36e1ea5ebeb" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2022-08-28<br>     <b>Victim:</b> Keshawn Thomas<br>     <b>Age:</b> 27.0<br>     <b>Race label:</b> Black; Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> point<br>     <b>Flee status:</b> missing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_e25fb42e9b6c9dc23e47191f3dc5b922.setContent(html_890c3283c297d697710ed36e1ea5ebeb);
+            
+        
+
+        marker_a6ffc99d64ca9b0794ec94c4fcf655c5.bindPopup(popup_e25fb42e9b6c9dc23e47191f3dc5b922)
+        ;
+
+        
+    
+    
+            marker_a6ffc99d64ca9b0794ec94c4fcf655c5.bindTooltip(
+                `<div>
+                     2022-08-28 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a6ffc99d64ca9b0794ec94c4fcf655c5.setIcon(icon_c5ccad1ba128a68be624a4d4f3950d22);
+            
+    
+            var marker_1fe5bdba241591eda7ea30ac6f08a876 = L.marker(
+                [35.0902369, -106.4979257],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_7419d4a94a3fd0140c4d645bfa5be639 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e32d313d369227c7ea518d647f00c257 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_6ab40302eed827d3eb5a8a308a9b3698 = $(`<div id="html_6ab40302eed827d3eb5a8a308a9b3698" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2022-11-05<br>     <b>Victim:</b> Julian Sanchez<br>     <b>Age:</b> 21.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> threat<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_e32d313d369227c7ea518d647f00c257.setContent(html_6ab40302eed827d3eb5a8a308a9b3698);
+            
+        
+
+        marker_1fe5bdba241591eda7ea30ac6f08a876.bindPopup(popup_e32d313d369227c7ea518d647f00c257)
+        ;
+
+        
+    
+    
+            marker_1fe5bdba241591eda7ea30ac6f08a876.bindTooltip(
+                `<div>
+                     2022-11-05 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1fe5bdba241591eda7ea30ac6f08a876.setIcon(icon_7419d4a94a3fd0140c4d645bfa5be639);
+            
+    
+            var marker_895d8049f753794457a0eb834362d8ca = L.marker(
+                [35.0888703, -106.6513538],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_112317d25b36b33d5a16404cf988b9ff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_699a5c113a0db07ad01104e3e6590d69 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_cb748c31b3d40de8eefeca9cb2c4f127 = $(`<div id="html_cb748c31b3d40de8eefeca9cb2c4f127" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2022-11-10<br>     <b>Victim:</b> Jesus Crosby<br>     <b>Age:</b> 41.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> knife<br>     <b>Threat type:</b> threat<br>     <b>Flee status:</b> foot<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_699a5c113a0db07ad01104e3e6590d69.setContent(html_cb748c31b3d40de8eefeca9cb2c4f127);
+            
+        
+
+        marker_895d8049f753794457a0eb834362d8ca.bindPopup(popup_699a5c113a0db07ad01104e3e6590d69)
+        ;
+
+        
+    
+    
+            marker_895d8049f753794457a0eb834362d8ca.bindTooltip(
+                `<div>
+                     2022-11-10 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_895d8049f753794457a0eb834362d8ca.setIcon(icon_112317d25b36b33d5a16404cf988b9ff);
+            
+    
+            var marker_18b8ac4401d143d056e9a813f0a9bb3b = L.marker(
+                [35.1295504, -106.5672494],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_710bb8e3c788b9adf7f67d006290db89 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_06ab6a1dd20053c9bfa2aff827afd173 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_cf479bb7d2abe2e19960316d6fa062bf = $(`<div id="html_cf479bb7d2abe2e19960316d6fa062bf" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2022-11-16<br>     <b>Victim:</b> nan<br>     <b>Age:</b> nan<br>     <b>Race label:</b> Unknown<br>     <b>Armed with:</b> knife<br>     <b>Threat type:</b> move<br>     <b>Flee status:</b> car<br>     <b>APD involved:</b> False<br>     <b>Agencies:</b> New Mexico State Police     </div>`)[0];
+                popup_06ab6a1dd20053c9bfa2aff827afd173.setContent(html_cf479bb7d2abe2e19960316d6fa062bf);
+            
+        
+
+        marker_18b8ac4401d143d056e9a813f0a9bb3b.bindPopup(popup_06ab6a1dd20053c9bfa2aff827afd173)
+        ;
+
+        
+    
+    
+            marker_18b8ac4401d143d056e9a813f0a9bb3b.bindTooltip(
+                `<div>
+                     2022-11-16 00:00:00 | Non-APD / multi-agency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_18b8ac4401d143d056e9a813f0a9bb3b.setIcon(icon_710bb8e3c788b9adf7f67d006290db89);
+            
+    
+            var marker_07db6e75c695e218f3c4007ee9cc63f4 = L.marker(
+                [35.13075697780115, -106.56852356431258],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_e38471d9302faa8264282a680f2b3442 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_548ab9453b010b6c28aab224d3c2296b = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_c1d9fa49ce0566c35fa0c6769423ece0 = $(`<div id="html_c1d9fa49ce0566c35fa0c6769423ece0" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2022-11-17<br>     <b>Victim:</b> Roberto Armijo<br>     <b>Age:</b> 34.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> knife<br>     <b>Threat type:</b> threat<br>     <b>Flee status:</b> car<br>     <b>APD involved:</b> False<br>     <b>Agencies:</b> New Mexico State Police     </div>`)[0];
+                popup_548ab9453b010b6c28aab224d3c2296b.setContent(html_c1d9fa49ce0566c35fa0c6769423ece0);
+            
+        
+
+        marker_07db6e75c695e218f3c4007ee9cc63f4.bindPopup(popup_548ab9453b010b6c28aab224d3c2296b)
+        ;
+
+        
+    
+    
+            marker_07db6e75c695e218f3c4007ee9cc63f4.bindTooltip(
+                `<div>
+                     2022-11-17 00:00:00 | Non-APD / multi-agency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_07db6e75c695e218f3c4007ee9cc63f4.setIcon(icon_e38471d9302faa8264282a680f2b3442);
+            
+    
+            var marker_b5f4ee92b145e24b8a61c671e8e4a992 = L.marker(
+                [35.0419954, -106.7495187],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_b305711e68f5b7a492e90d6eb2149c00 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e7885e9031665210931b7b33d2a39a89 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_b62134e2d6bf4819db309902724fa9f9 = $(`<div id="html_b62134e2d6bf4819db309902724fa9f9" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2022-11-25<br>     <b>Victim:</b> Blaine Denetdele<br>     <b>Age:</b> 30.0<br>     <b>Race label:</b> Native American<br>     <b>Armed with:</b> knife<br>     <b>Threat type:</b> threat<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_e7885e9031665210931b7b33d2a39a89.setContent(html_b62134e2d6bf4819db309902724fa9f9);
+            
+        
+
+        marker_b5f4ee92b145e24b8a61c671e8e4a992.bindPopup(popup_e7885e9031665210931b7b33d2a39a89)
+        ;
+
+        
+    
+    
+            marker_b5f4ee92b145e24b8a61c671e8e4a992.bindTooltip(
+                `<div>
+                     2022-11-25 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b5f4ee92b145e24b8a61c671e8e4a992.setIcon(icon_b305711e68f5b7a492e90d6eb2149c00);
+            
+    
+            var marker_4a16b75bc8efc98c994060fb215f47d7 = L.marker(
+                [34.99641244483638, -106.70512220773048],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_91c2890f284288b69df3ba3871638152 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_82d178aba8bc6282be7c9213ffdc3c41 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_8a0c5f0c271028eae4fedf9c2eac4915 = $(`<div id="html_8a0c5f0c271028eae4fedf9c2eac4915" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2023-04-16<br>     <b>Victim:</b> Jared Romero<br>     <b>Age:</b> 35.0<br>     <b>Race label:</b> Unknown<br>     <b>Armed with:</b> knife<br>     <b>Threat type:</b> threat<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> False<br>     <b>Agencies:</b> Bernalillo County Sheriff&#x27;s Department     </div>`)[0];
+                popup_82d178aba8bc6282be7c9213ffdc3c41.setContent(html_8a0c5f0c271028eae4fedf9c2eac4915);
+            
+        
+
+        marker_4a16b75bc8efc98c994060fb215f47d7.bindPopup(popup_82d178aba8bc6282be7c9213ffdc3c41)
+        ;
+
+        
+    
+    
+            marker_4a16b75bc8efc98c994060fb215f47d7.bindTooltip(
+                `<div>
+                     2023-04-16 00:00:00 | Non-APD / multi-agency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4a16b75bc8efc98c994060fb215f47d7.setIcon(icon_91c2890f284288b69df3ba3871638152);
+            
+    
+            var marker_5f4959f82c71e9e85785cde3f523a562 = L.marker(
+                [35.09103133562253, -106.67901858898308],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_0efb37dce90ab4aa4f8a41f05a13a709 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f55dc80b3cbe4fdd60497f4c517d9a53 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_2c00d1c261653cf444193ef8d26eadf3 = $(`<div id="html_2c00d1c261653cf444193ef8d26eadf3" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2023-05-19<br>     <b>Victim:</b> David Gaylor<br>     <b>Age:</b> 42.0<br>     <b>Race label:</b> White<br>     <b>Armed with:</b> knife<br>     <b>Threat type:</b> attack<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_f55dc80b3cbe4fdd60497f4c517d9a53.setContent(html_2c00d1c261653cf444193ef8d26eadf3);
+            
+        
+
+        marker_5f4959f82c71e9e85785cde3f523a562.bindPopup(popup_f55dc80b3cbe4fdd60497f4c517d9a53)
+        ;
+
+        
+    
+    
+            marker_5f4959f82c71e9e85785cde3f523a562.bindTooltip(
+                `<div>
+                     2023-05-19 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5f4959f82c71e9e85785cde3f523a562.setIcon(icon_0efb37dce90ab4aa4f8a41f05a13a709);
+            
+    
+            var marker_ce471caf0bba5baba06b0af4521d5172 = L.marker(
+                [35.073194047912324, -106.74258083163888],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_1e5ad3e4756f14ef8b7fb57deb1b4678 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6c3154d44c4a5c6a7ba8ec2aa917321 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_ba3bb1a370bc858ca59abdc591ff65fc = $(`<div id="html_ba3bb1a370bc858ca59abdc591ff65fc" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2023-06-24<br>     <b>Victim:</b> Mark Edward Peter<br>     <b>Age:</b> 41.0<br>     <b>Race label:</b> White<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> shoot<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_f6c3154d44c4a5c6a7ba8ec2aa917321.setContent(html_ba3bb1a370bc858ca59abdc591ff65fc);
+            
+        
+
+        marker_ce471caf0bba5baba06b0af4521d5172.bindPopup(popup_f6c3154d44c4a5c6a7ba8ec2aa917321)
+        ;
+
+        
+    
+    
+            marker_ce471caf0bba5baba06b0af4521d5172.bindTooltip(
+                `<div>
+                     2023-06-24 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ce471caf0bba5baba06b0af4521d5172.setIcon(icon_1e5ad3e4756f14ef8b7fb57deb1b4678);
+            
+    
+            var marker_d1f6979b73506da7ddbfb0b1ef6d8442 = L.marker(
+                [35.087113470684244, -106.56882640982276],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_33910931765b9134f3723f2b9e235a03 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_db9d3b8a895858f1afa9eef6a29bed16 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_7caaf37c05be76a3bd0401f23e2d1dbe = $(`<div id="html_7caaf37c05be76a3bd0401f23e2d1dbe" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2023-06-29<br>     <b>Victim:</b> Jeramiah Salyards<br>     <b>Age:</b> 25.0<br>     <b>Race label:</b> White; Hispanic<br>     <b>Armed with:</b> knife<br>     <b>Threat type:</b> threat<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_db9d3b8a895858f1afa9eef6a29bed16.setContent(html_7caaf37c05be76a3bd0401f23e2d1dbe);
+            
+        
+
+        marker_d1f6979b73506da7ddbfb0b1ef6d8442.bindPopup(popup_db9d3b8a895858f1afa9eef6a29bed16)
+        ;
+
+        
+    
+    
+            marker_d1f6979b73506da7ddbfb0b1ef6d8442.bindTooltip(
+                `<div>
+                     2023-06-29 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d1f6979b73506da7ddbfb0b1ef6d8442.setIcon(icon_33910931765b9134f3723f2b9e235a03);
+            
+    
+            var marker_d96ddcd489e98b8a5892341008758d67 = L.marker(
+                [35.07695859203948, -106.49732328983052],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_0239cfb906832e5828e6253dcb66b2af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c8fa6cbacc70158c468e1ef79f3491a8 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_e4868967a5c073ec94ad2e7998f0e81c = $(`<div id="html_e4868967a5c073ec94ad2e7998f0e81c" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2023-07-20<br>     <b>Victim:</b> Emmanuel Galaviz Campos<br>     <b>Age:</b> 20.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> shoot<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department; New Mexico State Police     </div>`)[0];
+                popup_c8fa6cbacc70158c468e1ef79f3491a8.setContent(html_e4868967a5c073ec94ad2e7998f0e81c);
+            
+        
+
+        marker_d96ddcd489e98b8a5892341008758d67.bindPopup(popup_c8fa6cbacc70158c468e1ef79f3491a8)
+        ;
+
+        
+    
+    
+            marker_d96ddcd489e98b8a5892341008758d67.bindTooltip(
+                `<div>
+                     2023-07-20 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d96ddcd489e98b8a5892341008758d67.setIcon(icon_0239cfb906832e5828e6253dcb66b2af);
+            
+    
+            var marker_700beec1c14843c55d8da480f6d9deb2 = L.marker(
+                [35.090170274712115, -106.5062503587118],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_c32a7146edba8a986fa9969bfd2ce464 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fc11a2d9c9b8c3e6cd60856b92b56ac3 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_978f692bcdb875b6b9e96cba4c96e039 = $(`<div id="html_978f692bcdb875b6b9e96cba4c96e039" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2023-08-08<br>     <b>Victim:</b> Ahmad Nassar<br>     <b>Age:</b> 32.0<br>     <b>Race label:</b> Other<br>     <b>Armed with:</b> undetermined<br>     <b>Threat type:</b> missing<br>     <b>Flee status:</b> missing<br>     <b>APD involved:</b> False<br>     <b>Agencies:</b> Federal Bureau of Investigation     </div>`)[0];
+                popup_fc11a2d9c9b8c3e6cd60856b92b56ac3.setContent(html_978f692bcdb875b6b9e96cba4c96e039);
+            
+        
+
+        marker_700beec1c14843c55d8da480f6d9deb2.bindPopup(popup_fc11a2d9c9b8c3e6cd60856b92b56ac3)
+        ;
+
+        
+    
+    
+            marker_700beec1c14843c55d8da480f6d9deb2.bindTooltip(
+                `<div>
+                     2023-08-08 00:00:00 | Non-APD / multi-agency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_700beec1c14843c55d8da480f6d9deb2.setIcon(icon_c32a7146edba8a986fa9969bfd2ce464);
+            
+    
+            var marker_9a44fa18c4a3aa3ab557084be16af47a = L.marker(
+                [35.15616662955824, -106.63780088686626],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_f5a33e51df8d0b6105574aed0792e22f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b4de5472a95b950f3befcde656668d2a = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_6727640c99fcef973b69f4f792715626 = $(`<div id="html_6727640c99fcef973b69f4f792715626" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2023-11-12<br>     <b>Victim:</b> Joseph Ramos<br>     <b>Age:</b> nan<br>     <b>Race label:</b> Unknown<br>     <b>Armed with:</b> undetermined<br>     <b>Threat type:</b> missing<br>     <b>Flee status:</b> car<br>     <b>APD involved:</b> False<br>     <b>Agencies:</b> Bernalillo County Sheriff&#x27;s Department     </div>`)[0];
+                popup_b4de5472a95b950f3befcde656668d2a.setContent(html_6727640c99fcef973b69f4f792715626);
+            
+        
+
+        marker_9a44fa18c4a3aa3ab557084be16af47a.bindPopup(popup_b4de5472a95b950f3befcde656668d2a)
+        ;
+
+        
+    
+    
+            marker_9a44fa18c4a3aa3ab557084be16af47a.bindTooltip(
+                `<div>
+                     2023-11-12 00:00:00 | Non-APD / multi-agency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9a44fa18c4a3aa3ab557084be16af47a.setIcon(icon_f5a33e51df8d0b6105574aed0792e22f);
+            
+    
+            var marker_ee50ae8bdd7e3883861531ed04ca6684 = L.marker(
+                [35.14079720239818, -106.59986637301697],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_0b3b0f80a53776ecb5ab775d7bbc3475 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c63bd36b08626e9ffa0f26b9c86d213b = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_bb0444e1788ada08b19e0051c275f7c0 = $(`<div id="html_bb0444e1788ada08b19e0051c275f7c0" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2023-11-25<br>     <b>Victim:</b> Pete Martinez<br>     <b>Age:</b> 36.0<br>     <b>Race label:</b> Unknown<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> threat<br>     <b>Flee status:</b> foot<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_c63bd36b08626e9ffa0f26b9c86d213b.setContent(html_bb0444e1788ada08b19e0051c275f7c0);
+            
+        
+
+        marker_ee50ae8bdd7e3883861531ed04ca6684.bindPopup(popup_c63bd36b08626e9ffa0f26b9c86d213b)
+        ;
+
+        
+    
+    
+            marker_ee50ae8bdd7e3883861531ed04ca6684.bindTooltip(
+                `<div>
+                     2023-11-25 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ee50ae8bdd7e3883861531ed04ca6684.setIcon(icon_0b3b0f80a53776ecb5ab775d7bbc3475);
+            
+    
+            var marker_86d158e52a25a6eb480982825c3aeb6a = L.marker(
+                [35.13099364123745, -106.59996706467528],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_4dbed5d71cf5158fc2b87c418634e9b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_faaeb45c9372717c726eb5c3277b7925 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_d384a1704f98b6d5162c70f73822befc = $(`<div id="html_d384a1704f98b6d5162c70f73822befc" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2023-12-07<br>     <b>Victim:</b> Mark Carlson<br>     <b>Age:</b> 32.0<br>     <b>Race label:</b> White<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> threat<br>     <b>Flee status:</b> foot<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_faaeb45c9372717c726eb5c3277b7925.setContent(html_d384a1704f98b6d5162c70f73822befc);
+            
+        
+
+        marker_86d158e52a25a6eb480982825c3aeb6a.bindPopup(popup_faaeb45c9372717c726eb5c3277b7925)
+        ;
+
+        
+    
+    
+            marker_86d158e52a25a6eb480982825c3aeb6a.bindTooltip(
+                `<div>
+                     2023-12-07 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_86d158e52a25a6eb480982825c3aeb6a.setIcon(icon_4dbed5d71cf5158fc2b87c418634e9b6);
+            
+    
+            var marker_c2747d954e63e8724ab668a1f1517b14 = L.marker(
+                [35.10710297920408, -106.64989601323173],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_e33d96f6eefd0b7f862ac1bebf0c5c01 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9772fd6b40c999bc819f350287076554 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_f5947bef08435079ac05c79c92bb0385 = $(`<div id="html_f5947bef08435079ac05c79c92bb0385" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2024-01-25<br>     <b>Victim:</b> Joseph Dominic Baca<br>     <b>Age:</b> 38.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> point<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_9772fd6b40c999bc819f350287076554.setContent(html_f5947bef08435079ac05c79c92bb0385);
+            
+        
+
+        marker_c2747d954e63e8724ab668a1f1517b14.bindPopup(popup_9772fd6b40c999bc819f350287076554)
+        ;
+
+        
+    
+    
+            marker_c2747d954e63e8724ab668a1f1517b14.bindTooltip(
+                `<div>
+                     2024-01-25 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c2747d954e63e8724ab668a1f1517b14.setIcon(icon_e33d96f6eefd0b7f862ac1bebf0c5c01);
+            
+    
+            var marker_c296b7de8ec1b1380c86e9572894c152 = L.marker(
+                [35.151723883658136, -106.5098231027226],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_386920827b6b6dad37e6520241620374 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_694b4e2b49b2011abc5459faf89ad9ae = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_713e4a9c736d30bb6e7daaf9129a55a8 = $(`<div id="html_713e4a9c736d30bb6e7daaf9129a55a8" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2024-03-08<br>     <b>Victim:</b> Francisco Hernandez<br>     <b>Age:</b> 35.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> point<br>     <b>Flee status:</b> foot<br>     <b>APD involved:</b> False<br>     <b>Agencies:</b> New Mexico State Police     </div>`)[0];
+                popup_694b4e2b49b2011abc5459faf89ad9ae.setContent(html_713e4a9c736d30bb6e7daaf9129a55a8);
+            
+        
+
+        marker_c296b7de8ec1b1380c86e9572894c152.bindPopup(popup_694b4e2b49b2011abc5459faf89ad9ae)
+        ;
+
+        
+    
+    
+            marker_c296b7de8ec1b1380c86e9572894c152.bindTooltip(
+                `<div>
+                     2024-03-08 00:00:00 | Non-APD / multi-agency
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c296b7de8ec1b1380c86e9572894c152.setIcon(icon_386920827b6b6dad37e6520241620374);
+            
+    
+            var marker_54596601871508036e228d312a20f2a1 = L.marker(
+                [35.11617634405111, -106.53323300091591],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_8c301f7d3d6c838ea79308638e940563 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a830e70e73d4c5798e30d64c1e163e4d = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_e34a8e8e5651ff9f728c0603aa5e8c45 = $(`<div id="html_e34a8e8e5651ff9f728c0603aa5e8c45" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2024-03-19<br>     <b>Victim:</b> Mariah Voigt<br>     <b>Age:</b> 33.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> unarmed<br>     <b>Threat type:</b> move<br>     <b>Flee status:</b> foot<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_a830e70e73d4c5798e30d64c1e163e4d.setContent(html_e34a8e8e5651ff9f728c0603aa5e8c45);
+            
+        
+
+        marker_54596601871508036e228d312a20f2a1.bindPopup(popup_a830e70e73d4c5798e30d64c1e163e4d)
+        ;
+
+        
+    
+    
+            marker_54596601871508036e228d312a20f2a1.bindTooltip(
+                `<div>
+                     2024-03-19 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_54596601871508036e228d312a20f2a1.setIcon(icon_8c301f7d3d6c838ea79308638e940563);
+            
+    
+            var marker_e8a0201c02f1bac091870336815a2a35 = L.marker(
+                [35.10636694806515, -106.5507963702192],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_5902041f01e7f934134b3ad1c560efcb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fae47ba989f8333f88672e2e57a2f04c = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_588a14c1aca147031c889cc1cd262c12 = $(`<div id="html_588a14c1aca147031c889cc1cd262c12" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2024-04-11<br>     <b>Victim:</b> Mark Christian Benavidez Jr.<br>     <b>Age:</b> 30.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> shoot<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_fae47ba989f8333f88672e2e57a2f04c.setContent(html_588a14c1aca147031c889cc1cd262c12);
+            
+        
+
+        marker_e8a0201c02f1bac091870336815a2a35.bindPopup(popup_fae47ba989f8333f88672e2e57a2f04c)
+        ;
+
+        
+    
+    
+            marker_e8a0201c02f1bac091870336815a2a35.bindTooltip(
+                `<div>
+                     2024-04-11 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e8a0201c02f1bac091870336815a2a35.setIcon(icon_5902041f01e7f934134b3ad1c560efcb);
+            
+    
+            var marker_f85d1239675ffbd334c8fb00cc8e514b = L.marker(
+                [35.10655951323042, -106.70444074135315],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_7e35a9d447ab6047ba800c7905916509 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_09bb2bb1082a3c0c2ea80ed9de364be6 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_33fa962c6888a3f03d1b425d3db06b44 = $(`<div id="html_33fa962c6888a3f03d1b425d3db06b44" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2024-06-20<br>     <b>Victim:</b> Dale Meador<br>     <b>Age:</b> 42.0<br>     <b>Race label:</b> Unknown<br>     <b>Armed with:</b> replica<br>     <b>Threat type:</b> threat<br>     <b>Flee status:</b> car<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_09bb2bb1082a3c0c2ea80ed9de364be6.setContent(html_33fa962c6888a3f03d1b425d3db06b44);
+            
+        
+
+        marker_f85d1239675ffbd334c8fb00cc8e514b.bindPopup(popup_09bb2bb1082a3c0c2ea80ed9de364be6)
+        ;
+
+        
+    
+    
+            marker_f85d1239675ffbd334c8fb00cc8e514b.bindTooltip(
+                `<div>
+                     2024-06-20 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f85d1239675ffbd334c8fb00cc8e514b.setIcon(icon_7e35a9d447ab6047ba800c7905916509);
+            
+    
+            var marker_58cec25149be378a7890f9bd5190f541 = L.marker(
+                [35.080497146010394, -106.64388940009702],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_95c122622a07350c8f858bad62dd0771 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0282df24a517081c33a5dd63c89fa737 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_38099c855b090ef6952cd79871f3ad99 = $(`<div id="html_38099c855b090ef6952cd79871f3ad99" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2024-08-17<br>     <b>Victim:</b> Derek Darnell Pickett<br>     <b>Age:</b> 44.0<br>     <b>Race label:</b> Black<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> threat<br>     <b>Flee status:</b> foot<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_0282df24a517081c33a5dd63c89fa737.setContent(html_38099c855b090ef6952cd79871f3ad99);
+            
+        
+
+        marker_58cec25149be378a7890f9bd5190f541.bindPopup(popup_0282df24a517081c33a5dd63c89fa737)
+        ;
+
+        
+    
+    
+            marker_58cec25149be378a7890f9bd5190f541.bindTooltip(
+                `<div>
+                     2024-08-17 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_58cec25149be378a7890f9bd5190f541.setIcon(icon_95c122622a07350c8f858bad62dd0771);
+            
+    
+            var marker_3977d4ebb75269c9bee80a39f8dd27f7 = L.marker(
+                [35.07007835051782, -106.52483600654854],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_41c312105bc4b6d78f451e25cf8a4515 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_382e663c947c841882d069861bebb76e = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_099159a7c753b66948180657ec5b1c1a = $(`<div id="html_099159a7c753b66948180657ec5b1c1a" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2024-10-13<br>     <b>Victim:</b> Matthew Sanchez<br>     <b>Age:</b> 41.0<br>     <b>Race label:</b> Hispanic<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> threat<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_382e663c947c841882d069861bebb76e.setContent(html_099159a7c753b66948180657ec5b1c1a);
+            
+        
+
+        marker_3977d4ebb75269c9bee80a39f8dd27f7.bindPopup(popup_382e663c947c841882d069861bebb76e)
+        ;
+
+        
+    
+    
+            marker_3977d4ebb75269c9bee80a39f8dd27f7.bindTooltip(
+                `<div>
+                     2024-10-13 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3977d4ebb75269c9bee80a39f8dd27f7.setIcon(icon_41c312105bc4b6d78f451e25cf8a4515);
+            
+    
+            var marker_6f782c5aca05be9980a77079f566c464 = L.marker(
+                [35.0821671113886, -106.70108630777504],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_1c01d4c388c4e8a7ed1a14ff4aed90f8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_61beb3323edcb1677a41e6848025faca = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_3fe25b2031723aecd02a79b9ee469d22 = $(`<div id="html_3fe25b2031723aecd02a79b9ee469d22" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2024-10-18<br>     <b>Victim:</b> Matthew Freddie Garcia<br>     <b>Age:</b> 39.0<br>     <b>Race label:</b> Unknown<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> undetermined<br>     <b>Flee status:</b> not_fleeing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_61beb3323edcb1677a41e6848025faca.setContent(html_3fe25b2031723aecd02a79b9ee469d22);
+            
+        
+
+        marker_6f782c5aca05be9980a77079f566c464.bindPopup(popup_61beb3323edcb1677a41e6848025faca)
+        ;
+
+        
+    
+    
+            marker_6f782c5aca05be9980a77079f566c464.bindTooltip(
+                `<div>
+                     2024-10-18 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6f782c5aca05be9980a77079f566c464.setIcon(icon_1c01d4c388c4e8a7ed1a14ff4aed90f8);
+            
+    
+            var marker_6d1127d357e7e035c94f6e4f26eaa53f = L.marker(
+                [35.105678293518, -106.587871954946],
+                {
+}
+            ).addTo(marker_cluster_444af8c58f343b31913bf7cabc34e15c);
+        
+    
+            var icon_da7065ea693164fb0fdef717f002aa00 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_847c407695e1c4575ba3d2eb9a4d70e2 = L.popup({
+  "maxWidth": 420,
+});
+
+        
+            
+                var html_0228a1cc99d33b87859041fa16611909 = $(`<div id="html_0228a1cc99d33b87859041fa16611909" style="width: 100.0%; height: 100.0%;">     <b>Date:</b> 2024-11-11<br>     <b>Victim:</b> Anthony Hernandez<br>     <b>Age:</b> 30.0<br>     <b>Race label:</b> Unknown<br>     <b>Armed with:</b> gun<br>     <b>Threat type:</b> shoot<br>     <b>Flee status:</b> missing<br>     <b>APD involved:</b> True<br>     <b>Agencies:</b> Albuquerque Police Department     </div>`)[0];
+                popup_847c407695e1c4575ba3d2eb9a4d70e2.setContent(html_0228a1cc99d33b87859041fa16611909);
+            
+        
+
+        marker_6d1127d357e7e035c94f6e4f26eaa53f.bindPopup(popup_847c407695e1c4575ba3d2eb9a4d70e2)
+        ;
+
+        
+    
+    
+            marker_6d1127d357e7e035c94f6e4f26eaa53f.bindTooltip(
+                `<div>
+                     2024-11-11 00:00:00 | APD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6d1127d357e7e035c94f6e4f26eaa53f.setIcon(icon_da7065ea693164fb0fdef717f002aa00);
+            
+    
+            marker_cluster_444af8c58f343b31913bf7cabc34e15c.addTo(map_5df8d0273f4ea2edf0c8d0fd326797e2);
+        
+    
+            var rectangle_932ebdfc52c357caacf962e9e8800ae2 = L.rectangle(
+                [[34.9917498, -106.7495187], [35.2033113, -106.49282963642378]],
+                {"bubblingMouseEvents": true, "color": "#333333", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#333333", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_5df8d0273f4ea2edf0c8d0fd326797e2);
+        
+    
+            rectangle_932ebdfc52c357caacf962e9e8800ae2.bindTooltip(
+                `<div>
+                     Incident coordinate extent
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            L.control.fullscreen(
+                {
+  "position": "topleft",
+  "title": "Full Screen",
+  "titleCancel": "Exit Full Screen",
+  "forceSeparateButton": false,
+}
+            ).addTo(map_5df8d0273f4ea2edf0c8d0fd326797e2);
+        
+    
+            var measure_control_e41e5b602292b296d830a9cc6fdaa971 = new L.Control.Measure(
+                {
+  "position": "topleft",
+  "primaryLengthUnit": "miles",
+  "secondaryLengthUnit": "miles",
+  "primaryAreaUnit": "sqmeters",
+  "secondaryAreaUnit": "acres",
+});
+            map_5df8d0273f4ea2edf0c8d0fd326797e2.addControl(measure_control_e41e5b602292b296d830a9cc6fdaa971);
+
+            // Workaround for using this plugin with Leaflet>=1.8.0
+            // https://github.com/ljagis/leaflet-measure/issues/171
+            L.Control.Measure.include({
+                _setCaptureMarkerIcon: function () {
+                    // disable autopan
+                    this._captureMarker.options.autoPanOnFocus = false;
+                    // default function
+                    this._captureMarker.setIcon(
+                        L.divIcon({
+                            iconSize: this._map.getSize().multiplyBy(2)
+                        })
+                    );
+                },
+            });
+
+        
+    
+            var layer_control_f6c5934acf74710d51743149cadd2d72_layers = {
+                base_layers : {
+                    "OpenTopoMap terrain" : tile_layer_26932460142197244974c1b2a25431ed,
+                    "CartoDB Positron" : tile_layer_d3deee81ac1d7b5d272bdc3b7426e179,
+                },
+                overlays :  {
+                    "Fatal police shooting locations" : marker_cluster_444af8c58f343b31913bf7cabc34e15c,
+                },
+            };
+            let layer_control_f6c5934acf74710d51743149cadd2d72 = L.control.layers(
+                layer_control_f6c5934acf74710d51743149cadd2d72_layers.base_layers,
+                layer_control_f6c5934acf74710d51743149cadd2d72_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": false,
+  "autoZIndex": true,
+}
+            ).addTo(map_5df8d0273f4ea2edf0c8d0fd326797e2);
+
+        
+</script>
+</html>
