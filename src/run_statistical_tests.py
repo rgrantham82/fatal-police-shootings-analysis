@@ -3,6 +3,7 @@
 This script is a portfolio-friendly template. It expects processed files in
 `data/processed/` and writes outputs to `data/processed/`.
 """
+
 from pathlib import Path
 import pandas as pd
 import numpy as np
@@ -21,24 +22,33 @@ def main() -> None:
     x = national["year"].to_numpy()
     y = national["fatal_shooting_rate_per_1m"].to_numpy()
     slope, intercept, r, p, se = stats.linregress(x, y)
-    results.append({
-        "test": "national_linear_rate_trend",
-        "statistic": slope,
-        "p_value": p,
-        "interpretation": "Estimated annual change in fatal shooting rate per 1M residents."
-    })
+    results.append(
+        {
+            "test": "national_linear_rate_trend",
+            "statistic": slope,
+            "p_value": p,
+            "interpretation": "Estimated annual change in fatal shooting rate per 1M residents.",
+        }
+    )
 
     # Region test if region exists
-    if "region" in state_rates.columns and "annualized_rate_per_1m" in state_rates.columns:
-        groups = [g["annualized_rate_per_1m"].dropna().to_numpy()
-                  for _, g in state_rates.groupby("region")]
+    if (
+        "region" in state_rates.columns
+        and "annualized_rate_per_1m" in state_rates.columns
+    ):
+        groups = [
+            g["annualized_rate_per_1m"].dropna().to_numpy()
+            for _, g in state_rates.groupby("region")
+        ]
         h, p = stats.kruskal(*groups)
-        results.append({
-            "test": "kruskal_region_rate_difference",
-            "statistic": h,
-            "p_value": p,
-            "interpretation": "Tests whether state rates differ across Census regions."
-        })
+        results.append(
+            {
+                "test": "kruskal_region_rate_difference",
+                "statistic": h,
+                "p_value": p,
+                "interpretation": "Tests whether state rates differ across Census regions.",
+            }
+        )
 
     out = pd.DataFrame(results)
     out.to_csv(DATA / "portfolio_statistical_tests.csv", index=False)
